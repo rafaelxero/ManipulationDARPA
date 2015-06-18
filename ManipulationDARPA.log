@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  18 JUN 2015 11:54
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  18 JUN 2015 13:53
 entering extended mode
 **D:/HD-PNTU2/Mis*Documentos/Empleos/Trabajo*HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex
 ("D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex"
@@ -177,6 +177,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 31.
  ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_introduction.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_related_work.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_teleop_manip_method.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_door.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_plug.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_button.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl")
 
 ** Conference Paper **
@@ -195,10 +203,10 @@ Before submitting the final camera ready copy, remember to:
 ]
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
 Here is how much of TeX's memory you used:
- 1512 strings out of 495285
- 22277 string characters out of 3180829
+ 1544 strings out of 495285
+ 23985 string characters out of 3180829
  75391 words of memory out of 3000000
- 4740 multiletter control sequences out of 15000+200000
+ 4748 multiletter control sequences out of 15000+200000
  41259 words of font info for 91 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,9n,22p,340b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -207,7 +215,7 @@ Here is how much of TeX's memory you used:
 .8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.
 8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (1 page, 73284 bytes).
+Output written on ManipulationDARPA.pdf (1 page, 73394 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

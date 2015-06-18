@@ -1,0 +1,29 @@
+\section{Introduction and Motivation}
+	\label{sec:introduction}
+
+	Disaster response is attracting attention from the robotics research community, and even more since the
+	Fukushima Daiichi nuclear power plant accident that followed the 2011 Great East Japan earthquake and tsunami.
+	As a concrete materialization of this increasing interest, a challenge is proposed by the American Defense
+	Advanced Research Projects Agency (DARPA) to use robots in disaster-hit facilities that were made too hazardous
+	for direct human operator intervention.
+	It is worth noticing that the challenge does not impose any constraint on the design of the robot, but since the
+	environment (industrial ladders, doors, valves, cars) as well as the tools (levers, drills, hammers) were meant
+	to comply with the human morphology, it is a natural option to develop the necessary means to make the humanoid
+	robots capable of performing inspection and disaster recovering actions inside a non-structured environment
+	\cite{Bouyarmane}.
+	
+	This environment can be considered to be ``kind of'' known in the sense that we know which actions
+	(the type of tasks)	are required in advance and that we have a rough idea of its spatial distribution,
+	maybe altered due to the disaster itself.
+	However, it is assumed that there is no precise model of this environment, and that there are previously unknown
+	obstacles, randomly placed on it.
+	
+	Despite of these conditions, the robot must be able to travel through the environment to achieve a proper stance
+	with respect to the object(s) representing the target of the task, such that they be inside of the dextrous
+	workspace of the hands of the robot.
+	
+	It is also mandatory to consider that within a desaster-hit facility it is not possible to rely on a stable,
+	wide bandwidth communication system.
+	
+	% Still working on this
+	This has to be done by means of a task-level teleoperation
