@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  18 JUN 2015 13:53
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  19 JUN 2015 11:19
 entering extended mode
 **D:/HD-PNTU2/Mis*Documentos/Empleos/Trabajo*HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex
 ("D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex"
@@ -185,7 +185,16 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_button.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl" [1{C:/ProgramData/Mi
+KTeX/2.8/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 2452) in paragraph at lines 24--31
+[]\OT1/ptm/m/n/8 Kapil D. Katyal, Christo-pher Y. Brown, Steven A. Hecht-man,
+ []
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -197,27 +206,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[1{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}
+[2
 
-
-]
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
+] ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
 Here is how much of TeX's memory you used:
- 1544 strings out of 495285
- 23985 string characters out of 3180829
- 75391 words of memory out of 3000000
- 4748 multiletter control sequences out of 15000+200000
+ 1547 strings out of 495285
+ 24013 string characters out of 3180829
+ 78391 words of memory out of 3000000
+ 4751 multiletter control sequences out of 15000+200000
  41259 words of font info for 91 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,9n,22p,340b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Winapps/MiKTeX
- 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX 2
-.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.
-8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (1 page, 73394 bytes).
+{C:/Winapps/MiKT
+eX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 
+2.8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on ManipulationDARPA.pdf (2 pages, 77354 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

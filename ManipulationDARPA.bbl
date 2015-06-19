@@ -4,7 +4,29 @@
 K.~Bouyarmane, J.~Vaillant, K.~Fran\c{c}ois, and A.~Kheddar.
 \newblock Exploring humanoid robots locomotion capabilities in virtual disaster
   response scenarios.
-\newblock In {\em 12th. IEEE-RAS International Conference on Humanoid Robots},
-  2012.
+\newblock In {\em IEEE-RAS International Conference on Humanoid Robots}, 2012.
+
+\bibitem{Kohlbrecher}
+Stefan Kohlbrecher, Alberto Romay, Alexander Stumpf, Anant Gupta, and Oskar~von
+  Stryk.
+\newblock Human-robot teaming for rescue missions: Team vigir's approach to the
+  2013 darpa robotics challenge trials.
+\newblock {\em Journal of Field Robotics}, 32(3), 2014.
+
+\bibitem{Romay}
+Alberto Romay, Stefan Kohlbrecher, David~C. Conner, Alexander Stumpf, and
+  Oskar~von Stryk.
+\newblock Template-based manipulation in unstructured environments for
+  supervised semi-autonomous humanoid robots.
+\newblock In {\em IEEE-RAS International Conference on Humanoid Robots}, 2014.
+
+\bibitem{Katyal}
+Kapil~D. Katyal, Christopher~Y. Brown, Steven~A. Hechtman, Matthew~P. Para,
+  Timotthy~G. McGee, Kevin~C. Wolfe, Ryan~J. Murphy, Michael~D.M. Kutzer,
+  Edward~W. Tunstel, Michael~P. McLoughlin, and Matthew~S. Johannes.
+\newblock Approaches to robotic teleoperation in a disaster scenario: From
+  supervised autonomy to direct control.
+\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
+  Systems (IROS)}, 2014.
 
 \end{thebibliography}
