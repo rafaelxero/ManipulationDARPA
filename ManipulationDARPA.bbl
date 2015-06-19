@@ -29,4 +29,11 @@ Kapil~D. Katyal, Christopher~Y. Brown, Steven~A. Hechtman, Matthew~P. Para,
 \newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
   Systems (IROS)}, 2014.
 
+\bibitem{Nakaoka_Choreonoid}
+S.~Nakaoka, S.~Kajita, and K.~Yokoi.
+\newblock Intuitive and flexible user interface for creating whole body motions
+  of biped humanoid robots.
+\newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
+  (IROS)}, pages 1675--1681, Taipei, Taiwan, October 2010.
+
 \end{thebibliography}

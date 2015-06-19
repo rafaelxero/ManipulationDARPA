@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  19 JUN 2015 11:19
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  19 JUN 2015 15:44
 entering extended mode
 **D:/HD-PNTU2/Mis*Documentos/Empleos/Trabajo*HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex
 ("D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex"
@@ -91,6 +91,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 )
 ** ATTENTION: Overriding command lockouts (line 3).
 ** ATTENTION: Overriding IEEE standard margins (line 4).
+("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Winapps\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+ ("C:\Winapps\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
 ("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip47
@@ -100,50 +122,50 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01
  ("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
-\ex@=\dimen113
+\@emptytoks=\toks16
+\ex@=\dimen115
 ))
 ("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen114
+\pmbraise@=\dimen116
 ) ("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count91
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count92
-\leftroot@=\count93
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count94
-\DOTSCASE@=\count95
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen115
+\big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
-\tag@help=\toks16
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
-\andhelp@=\toks17
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
-\@envbody=\toks18
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks17
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks18
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks19
 \multlinegap=\skip48
 \multlinetaggap=\skip49
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -155,41 +177,57 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 31.
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
-("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+("C:\Winapps\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen124
+\scratchbox=\box29
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen125
+\MPnumerator=\count108
+\everyMPtoPDFconversion=\toks22
+)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+ ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
  ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_introduction.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_related_work.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_teleop_manip_method.tex")
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_teleop_manip_method.tex" [1{C:/ProgramD
+ata/MiKTeX/2.8/pdftex/config/pdftex.map}
+
+
+] <img/ManipulationMarker.png, id=10, 764.8575pt x 549.55313pt>
+File: img/ManipulationMarker.png Graphic file (type png)
+
+<use img/ManipulationMarker.png>)
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_door.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_plug.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_button.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl" [1{C:/ProgramData/Mi
-KTeX/2.8/pdftex/config/pdftex.map}
-
-
-]
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl"
 Underfull \hbox (badness 2452) in paragraph at lines 24--31
 []\OT1/ptm/m/n/8 Kapil D. Katyal, Christo-pher Y. Brown, Steven A. Hecht-man,
  []
@@ -206,25 +244,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[2
-
-] ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
+[2 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/ManipulationMarker.png (PNG copy)>]
+("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
 Here is how much of TeX's memory you used:
- 1547 strings out of 495285
- 24013 string characters out of 3180829
- 78391 words of memory out of 3000000
- 4751 multiletter control sequences out of 15000+200000
+ 2225 strings out of 495285
+ 32887 string characters out of 3180829
+ 90659 words of memory out of 3000000
+ 5402 multiletter control sequences out of 15000+200000
  41259 words of font info for 91 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,9n,22p,340b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Winapps/MiKT
-eX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX
- 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 
-2.8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (2 pages, 77354 bytes).
+{C:/Winapps/MiKTeX
+ 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX 2
+.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.
+8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on ManipulationDARPA.pdf (2 pages, 149812 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
