@@ -26,7 +26,7 @@
 		In such a case, a preliminar alignment of a 3D object representing this manipulation target
 		(the \emph{manipulation marker}) is first performed.
 		
-		By using the Graphical User Interface (GUI) provided by Choreonoid\cite{Nakaoka_Choreonoid}, the Manipulation
+		By using the Graphical User Interface (GUI) provided by Choreonoid~\cite{Nakaoka_Choreonoid}, the Manipulation
 		Marker is represented as the corresponding 3D model together with a set of arrows and rings which allow the
 		operator to translate and rotate it with respect to its local reference frame,
 		as depicted in \figurename~\ref{fig:ManipulationMarker}.
@@ -56,14 +56,36 @@
 		get its mathematical representation and use it to define an initial attitude of the Manipulation Marker,
 		requiring little automatic or manual adjustments.
 		
-		Once this is done, it is possible to define a proper stance of the robot (calculated beforehand) with respect
+		Once this is done, it is possible to define a proper stance of the robot (decided beforehand) with respect
 		to the local reference frame of the Manipulation Marker.
 		Then, by taking into account the height field of the floor (obtained from the point cloud) and avoiding the
 		obstacles of the environment (walls and/or other objects), a proper footstep planning is performed in order
-		for the humanoid robot to arrive to the desired stance.
+		for the humanoid robot to arrive to the desired stance~\cite{Morisawa}~\cite{Perrin}.
 		
 	\subsection{Grasping the target}
 		
 		Once humanoid the robot arrives to the desired stance, it has to perform another measurement.
 		First, because of the positioning errors accumulated during its locomotion, and second,
 		in order to obtain a more dense point cloud inteded for refining the alignment of the Manipulation Marker.
+		
+		Having done this refinement, it is possible to describe the attitude of the hands of the robot with respect
+		to the local reference frame of the Manipulation Marker in order to approach to the manipulation target and
+		grasp it, push it or pull it as required.
+		Once decided, the whole-body Inverse Kinematics (IK) solution must be found, taking into account the redundancy
+		of the robot to avoid collisions with the environment (represented with the point cloud)~\cite{Kanoun}.
+		
+		This relative attitude of the hands needs to be previously decided, such that the task be effectively carried
+		out by means of smooth motions; that is, avoiding singular configurations, and critical postures that may
+		compromise the stability of the robot.
+		However, these ones can be modified during the execution of the task if necessary, by means of a Hand Marker,
+		a 3D representation of the hand and a set of arrows and rings which allow the operator to translate and rotate it
+		with respect to its local reference frame, calculating at the same time the resulting configuration of the
+		humanoid robot.
+		See \figurename~\ref{fig:HandMarker}.
+		
+		\begin{figure}[b]
+			\centering
+			\includegraphics[height = 5.5cm]{img/HandMarker}
+			\caption{Left Hand Marker.}
+			\label{fig:HandMarker}
+		\end{figure}

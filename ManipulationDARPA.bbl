@@ -36,4 +36,23 @@ S.~Nakaoka, S.~Kajita, and K.~Yokoi.
 \newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
   (IROS)}, pages 1675--1681, Taipei, Taiwan, October 2010.
 
+\bibitem{Morisawa}
+Mitsuharu Morisawa, Shuuji Kajita, Fumio Kanehiro, Kenji Kaneko, Kanako Miura,
+  and Kazuhiro Yokoi.
+\newblock Balance control based on capture point error compensation for biped
+  walking on uneven terrain.
+\newblock In {\em IEEE-RAS International Conference on Humanoid Robots}, 2012.
+
+\bibitem{Perrin}
+N.~Perrin.
+\newblock {\em Footstep Planning for Humanoid Robots: Discrete and Continuous
+  Approaches}.
+\newblock PhD thesis, University of Toulousse, 2011.
+
+\bibitem{Kanoun}
+Oussama Kanoun, Florent Lamiraux, and Pierre-Brice Wieber.
+\newblock Kinematic control of redundant manipulators: generalizing the task
+  priority framework to inequality tasks.
+\newblock {\em IEEE Transactions on Robotics}, 27(4), 2011.
+
 \end{thebibliography}

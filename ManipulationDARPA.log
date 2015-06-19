@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  19 JUN 2015 15:44
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  19 JUN 2015 17:07
 entering extended mode
 **D:/HD-PNTU2/Mis*Documentos/Empleos/Trabajo*HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex
 ("D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex"
@@ -221,13 +221,19 @@ ata/MiKTeX/2.8/pdftex/config/pdftex.map}
 ] <img/ManipulationMarker.png, id=10, 764.8575pt x 549.55313pt>
 File: img/ManipulationMarker.png Graphic file (type png)
 
-<use img/ManipulationMarker.png>)
+<use img/ManipulationMarker.png> <img/HandMarker.png, id=11, 764.8575pt x 549.55313pt>
+File: img/HandMarker.png Graphic file (type png)
+ <use img/HandMarker.png>)
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_door.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_plug.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sub_button.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/ManipulationMarker.png (PNG copy)> <
+D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/HandMarker.png (PNG copy)>]
 Underfull \hbox (badness 2452) in paragraph at lines 24--31
 []\OT1/ptm/m/n/8 Kapil D. Katyal, Christo-pher Y. Brown, Steven A. Hecht-man,
  []
@@ -244,24 +250,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[2 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/ManipulationMarker.png (PNG copy)>]
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
+[3
+
+] ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
 Here is how much of TeX's memory you used:
- 2225 strings out of 495285
- 32887 string characters out of 3180829
- 90659 words of memory out of 3000000
- 5402 multiletter control sequences out of 15000+200000
+ 2234 strings out of 495285
+ 33034 string characters out of 3180829
+ 90676 words of memory out of 3000000
+ 5410 multiletter control sequences out of 15000+200000
  41259 words of font info for 91 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,9n,22p,340b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Winapps/MiKTeX
- 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX 2
-.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.
-8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (2 pages, 149812 bytes).
+{C:/Winapps/MiKT
+eX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 
+2.8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on ManipulationDARPA.pdf (3 pages, 200293 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
