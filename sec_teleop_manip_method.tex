@@ -75,7 +75,7 @@
 		of the robot to avoid collisions with the environment (represented with the point cloud)~\cite{Kanoun}.
 		
 		This relative attitude of the hands needs to be previously decided, such that the task be effectively carried
-		out by means of smooth motions; that is, avoiding singular configurations, and critical postures that may
+		out by means of smooth motions; that is, avoiding singular configurations and critical postures that may
 		compromise the stability of the robot.
 		However, these ones can be modified during the execution of the task if necessary, by means of a Hand Marker,
 		a 3D representation of the hand and a set of arrows and rings which allow the operator to translate and rotate it
@@ -89,3 +89,38 @@
 			\caption{Left Hand Marker.}
 			\label{fig:HandMarker}
 		\end{figure}
+		
+	\subsection{Dealing with uncertainties}
+		
+		Grasping the target with the desired relative attitude can be critical for some manipulation tasks,
+		specifically if the target size is small when compared to the hand.
+		However, it is worth to consider that the point cloud has an intrinsec noise, mainly caused as a result of the
+		sunlight which complicates measurements.
+		Then, it is not advisable to rely completely on the point cloud to plan the grasping motion,
+		as the shown points may not represent actual points on the objects.
+		
+		One way to overcome this problem is to place the robot's hand within the view field of the LRF,
+		and add some offset to the point cloud in order to match the corresponding points with the hand,
+		whose attitude is known.
+		This strategy practically improves the representation of the target objects by the point cloud but
+		the precision may not be high enough.
+		However, it can be used to approach to the manipulation targets (within some centimeters) before grasping them,
+		with enough confidence that the hand is not going to collide unintentionally with the environment.
+		
+		Having done this, it is possible to use an approaching strategy in which the hand intentionally collides with
+		the target by means of a slow motion, in order to use the force sensor installed in the hand to stop the hand
+		when it senses a force greater than some established offset.
+		Then, the real position of some plane of the target can be known relative to the hand, whose attitude can be
+		computed by using forward kinematics and the actual joint values.
+		The grasping point on the target can then be reached by moving the hand a very small distance with respect
+		to its local reference frame.
+		
+	\subsection{Manipulating the target}
+		
+		Once the target is grasped, the relative attitude between the Manipulation Marker and the Hand Marker(s) can be
+		set to be constant.
+		Then, it is possible to manipulate the target by translating / rotating the Manipulation Marker, such that the
+		required configuration of the humanoid robot be automatically calculated by means of solving the corresponding
+		whole-body IK problem.
+		In this way, a broad range of manipulation tasks can be accomplished by following this scheme, as illustrated
+		by some examples which are described as follows.

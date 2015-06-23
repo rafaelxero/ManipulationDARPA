@@ -4,10 +4,39 @@ Version=2
 
 [SessionInfo]
 ActiveTab=2
-FrameCount=9
-ActiveFrame=1
+FrameCount=10
+ActiveFrame=3
 
 [Frame0]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-9
+MaxPos.y=-36
+NormalPos.left=30
+NormalPos.top=30
+NormalPos.right=1436
+NormalPos.bottom=392
+Class=CLatexEdit
+Document=sec_introduction.tex
+
+[Frame0_Row0]
+cyCur=292
+cyMin=10
+
+[Frame0_Col0]
+cxCur=1363
+cxMin=10
+
+[Frame0_View0,0]
+Cursor.row=0
+Cursor.column=37
+TopSubLine=0
+
+[Frame1]
 Columns=1
 Rows=1
 Flags=0
@@ -23,47 +52,18 @@ NormalPos.bottom=541
 Class=CLatexEdit
 Document=ManipulationDARPA.tex
 
-[Frame0_Row0]
+[Frame1_Row0]
 cyCur=291
 cyMin=10
 
-[Frame0_Col0]
+[Frame1_Col0]
 cxCur=1359
 cxMin=10
 
-[Frame0_View0,0]
-Cursor.row=41
-Cursor.column=12
-TopSubLine=41
-
-[Frame1]
-Columns=1
-Rows=1
-Flags=2
-ShowCmd=3
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-9
-MaxPos.y=-36
-NormalPos.left=30
-NormalPos.top=30
-NormalPos.right=1436
-NormalPos.bottom=392
-Class=CLatexEdit
-Document=sec_introduction.tex
-
-[Frame1_Row0]
-cyCur=517
-cyMin=10
-
-[Frame1_Col0]
-cxCur=1561
-cxMin=10
-
 [Frame1_View0,0]
-Cursor.row=23
-Cursor.column=1
-TopSubLine=0
+Cursor.row=42
+Cursor.column=0
+TopSubLine=42
 
 [Frame2]
 Columns=1
@@ -97,8 +97,8 @@ TopSubLine=0
 [Frame3]
 Columns=1
 Rows=1
-Flags=0
-ShowCmd=1
+Flags=2
+ShowCmd=3
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-9
@@ -111,17 +111,17 @@ Class=CLatexEdit
 Document=sec_teleop_manip_method.tex
 
 [Frame3_Row0]
-cyCur=292
+cyCur=570
 cyMin=10
 
 [Frame3_Col0]
-cxCur=1363
+cxCur=1561
 cxMin=10
 
 [Frame3_View0,0]
-Cursor.row=1
-Cursor.column=31
-TopSubLine=0
+Cursor.row=83
+Cursor.column=39
+TopSubLine=63
 
 [Frame4]
 Columns=1
@@ -266,5 +266,34 @@ cxMin=10
 [Frame8_View0,0]
 Cursor.row=1
 Cursor.column=23
+TopSubLine=0
+
+[Frame9]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-9
+MaxPos.y=-36
+NormalPos.left=60
+NormalPos.top=60
+NormalPos.right=1466
+NormalPos.bottom=422
+Class=CLatexEdit
+Document=ManipulationDARPA.bib
+
+[Frame9_Row0]
+cyCur=292
+cyMin=10
+
+[Frame9_Col0]
+cxCur=1363
+cxMin=10
+
+[Frame9_View0,0]
+Cursor.row=15
+Cursor.column=0
 TopSubLine=0
 
