@@ -5,9 +5,38 @@ Version=2
 [SessionInfo]
 ActiveTab=2
 FrameCount=10
-ActiveFrame=7
+ActiveFrame=3
 
 [Frame0]
+Columns=1
+Rows=1
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-9
+MaxPos.y=-36
+NormalPos.left=0
+NormalPos.top=0
+NormalPos.right=1406
+NormalPos.bottom=415
+Class=CLatexEdit
+Document=sec_plug.tex
+
+[Frame0_Row0]
+cyCur=345
+cyMin=10
+
+[Frame0_Col0]
+cxCur=1363
+cxMin=10
+
+[Frame0_View0,0]
+Cursor.row=0
+Cursor.column=0
+TopSubLine=0
+
+[Frame1]
 Columns=1
 Rows=1
 Flags=0
@@ -23,20 +52,20 @@ NormalPos.bottom=452
 Class=CLatexEdit
 Document=sec_teleop_manip_method.tex
 
-[Frame0_Row0]
+[Frame1_Row0]
 cyCur=292
 cyMin=10
 
-[Frame0_Col0]
+[Frame1_Col0]
 cxCur=1363
 cxMin=10
 
-[Frame0_View0,0]
+[Frame1_View0,0]
 Cursor.row=6
 Cursor.column=0
-TopSubLine=0
+TopSubLine=3
 
-[Frame1]
+[Frame2]
 Columns=1
 Rows=1
 Flags=0
@@ -52,24 +81,24 @@ NormalPos.bottom=392
 Class=CLatexEdit
 Document=sec_introduction.tex
 
-[Frame1_Row0]
+[Frame2_Row0]
 cyCur=292
 cyMin=10
 
-[Frame1_Col0]
+[Frame2_Col0]
 cxCur=1363
 cxMin=10
 
-[Frame1_View0,0]
+[Frame2_View0,0]
 Cursor.row=0
 Cursor.column=0
 TopSubLine=0
 
-[Frame2]
+[Frame3]
 Columns=1
 Rows=1
-Flags=0
-ShowCmd=1
+Flags=2
+ShowCmd=3
 MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-9
@@ -81,20 +110,20 @@ NormalPos.bottom=541
 Class=CLatexEdit
 Document=ManipulationDARPA.tex
 
-[Frame2_Row0]
-cyCur=291
+[Frame3_Row0]
+cyCur=570
 cyMin=10
 
-[Frame2_Col0]
-cxCur=1359
+[Frame3_Col0]
+cxCur=1561
 cxMin=10
 
-[Frame2_View0,0]
-Cursor.row=63
+[Frame3_View0,0]
+Cursor.row=22
 Cursor.column=11
-TopSubLine=48
+TopSubLine=0
 
-[Frame3]
+[Frame4]
 Columns=1
 Rows=1
 Flags=0
@@ -110,20 +139,20 @@ NormalPos.bottom=422
 Class=CLatexEdit
 Document=sec_related_work.tex
 
-[Frame3_Row0]
+[Frame4_Row0]
 cyCur=292
 cyMin=10
 
-[Frame3_Col0]
+[Frame4_Col0]
 cxCur=1363
 cxMin=10
 
-[Frame3_View0,0]
+[Frame4_View0,0]
 Cursor.row=1
 Cursor.column=24
 TopSubLine=0
 
-[Frame4]
+[Frame5]
 Columns=1
 Rows=1
 Flags=0
@@ -139,20 +168,20 @@ NormalPos.bottom=362
 Class=CLatexEdit
 Document=sec_results.tex
 
-[Frame4_Row0]
+[Frame5_Row0]
 cyCur=292
 cyMin=10
 
-[Frame4_Col0]
+[Frame5_Col0]
 cxCur=1363
 cxMin=10
 
-[Frame4_View0,0]
+[Frame5_View0,0]
 Cursor.row=13
 Cursor.column=85
 TopSubLine=0
 
-[Frame5]
+[Frame6]
 Columns=1
 Rows=1
 Flags=0
@@ -168,20 +197,20 @@ NormalPos.bottom=392
 Class=CLatexEdit
 Document=sec_conclusions.tex
 
-[Frame5_Row0]
+[Frame6_Row0]
 cyCur=292
 cyMin=10
 
-[Frame5_Col0]
+[Frame6_Col0]
 cxCur=1363
 cxMin=10
 
-[Frame5_View0,0]
+[Frame6_View0,0]
 Cursor.row=1
 Cursor.column=23
 TopSubLine=0
 
-[Frame6]
+[Frame7]
 Columns=1
 Rows=1
 Flags=0
@@ -197,47 +226,18 @@ NormalPos.bottom=422
 Class=CLatexEdit
 Document=ManipulationDARPA.bib
 
-[Frame6_Row0]
+[Frame7_Row0]
 cyCur=292
 cyMin=10
 
-[Frame6_Col0]
+[Frame7_Col0]
 cxCur=1363
 cxMin=10
 
-[Frame6_View0,0]
-Cursor.row=19
-Cursor.column=1
-TopSubLine=0
-
-[Frame7]
-Columns=1
-Rows=1
-Flags=2
-ShowCmd=3
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-9
-MaxPos.y=-36
-NormalPos.left=0
-NormalPos.top=0
-NormalPos.right=1406
-NormalPos.bottom=415
-Class=CLatexEdit
-Document=sec_plug.tex
-
-[Frame7_Row0]
-cyCur=570
-cyMin=10
-
-[Frame7_Col0]
-cxCur=1561
-cxMin=10
-
 [Frame7_View0,0]
-Cursor.row=113
-Cursor.column=76
-TopSubLine=84
+Cursor.row=0
+Cursor.column=0
+TopSubLine=0
 
 [Frame8]
 Columns=1

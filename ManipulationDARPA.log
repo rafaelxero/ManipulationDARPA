@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  23 JUN 2015 17:59
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  25 JUN 2015 17:51
 entering extended mode
 **D:/HD-PNTU2/Mis*Documentos/Empleos/Trabajo*HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex
 ("D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex"
@@ -206,14 +206,18 @@ LaTeX Font Info:    ... okay on input line 18.
 \MPnumerator=\count108
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 35.
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
  ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
  ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 28.
+
+("C:\Winapps\MiKTeX 2.8\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_introduction.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_related_work.tex")
@@ -230,35 +234,38 @@ File: img/HandMarker.png Graphic file (type png)
 nMarker.png (PNG copy)> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/HandMarker.png (
 PNG copy)>])
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_plug.tex"
-<img/Sockets-Plug.png, id=16, 520.19344pt x 526.96875pt>
+<img/Sockets-Plug.png, id=15, 520.19344pt x 526.96875pt>
 File: img/Sockets-Plug.png Graphic file (type png)
  <use img/Sockets-Plug.png>
-<img/SocketPlugMarker.png, id=18, 549.55313pt x 526.21594pt>
+<img/SocketPlugMarker.png, id=17, 549.55313pt x 526.21594pt>
 File: img/SocketPlugMarker.png Graphic file (type png)
  <use img/SocketPlugMarker.png>
-<img/PreCloseHand.png, id=19, 574.39594pt x 526.21594pt>
+<img/PreCloseHand.png, id=18, 574.39594pt x 526.21594pt>
 File: img/PreCloseHand.png Graphic file (type png)
  <use img/PreCloseHand.png>
-<img/GraspPlug.png, id=20, 599.99156pt x 526.21594pt>
+<img/GraspPlug.png, id=19, 599.99156pt x 526.21594pt>
 File: img/GraspPlug.png Graphic file (type png)
- <use img/GraspPlug.png> [3 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Sockets-Plug
-.png> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/SocketPlugMarker.png>] <img/WatchP
-lug.png, id=26, 694.84593pt x 526.96875pt>
+ <use img/GraspPlug.png>
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [3 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Sockets-Plug.png> <D:/HD-PNTU2/Mis D
+ocumentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/SocketPlugMarker.png>] <img/WatchPlug.png, id=25, 694.8459
+3pt x 526.96875pt>
 File: img/WatchPlug.png Graphic file (type png)
  <use img/WatchPlug.png>
-<img/InsertPlug.png, id=27, 572.89032pt x 526.21594pt>
+<img/InsertPlug.png, id=26, 572.89032pt x 526.21594pt>
 File: img/InsertPlug.png Graphic file (type png)
  <use img/InsertPlug.png>)
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_button.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_door.tex")
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex"
-<img/door-drc.png, id=28, 154.176pt x 102.6234pt>
+<img/door-drc.png, id=27, 154.176pt x 102.6234pt>
 File: img/door-drc.png Graphic file (type png)
  <use img/door-drc.png>
-<img/plug-drc.png, id=29, 149.358pt x 134.1813pt>
+<img/plug-drc.png, id=28, 149.358pt x 134.1813pt>
 File: img/plug-drc.png Graphic file (type png)
  <use img/plug-drc.png>
-<img/button-drc.png, id=30, 154.176pt x 102.6234pt>
+<img/button-drc.png, id=29, 154.176pt x 102.6234pt>
 File: img/button-drc.png Graphic file (type png)
  <use img/button-drc.png>)
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
@@ -271,10 +278,6 @@ Underfull \hbox (badness 1540) in paragraph at lines 24--31
 cumentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/GraspPlug.png> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo 
 HRG/Documents/ManipulationDARPA/img/WatchPlug.png> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/Manipulatio
 nDARPA/img/InsertPlug.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 61.
- ("C:\Winapps\MiKTeX 2.8\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 Underfull \hbox (badness 5817) in paragraph at lines 64--69
 \OT1/ptm/m/n/9 Amaz-ing mo-ments, lessons learned, and what's next.
  []
@@ -301,21 +304,20 @@ Before submitting the final camera ready copy, remember to:
 /Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/button-drc.png>]
 ("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
 Here is how much of TeX's memory you used:
- 2411 strings out of 495285
- 35647 string characters out of 3180829
+ 2390 strings out of 495285
+ 35318 string characters out of 3180829
  91920 words of memory out of 3000000
- 5564 multiletter control sequences out of 15000+200000
- 44397 words of font info for 100 fonts, out of 3000000 for 9000
+ 5543 multiletter control sequences out of 15000+200000
+ 41778 words of font info for 89 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,9n,24p,340b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,24p,340b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Winapps/MiKTeX
- 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Winapps/MiKTeX 2
-.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/courier/ucrr8a.pfb><C:/Winapps/MiKTeX 
-2.8/fonts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (5 pages, 2384768 bytes).
+ 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/urw/courier/ucrr8a.pfb><C:/Winapps/MiKTeX 2.8/fo
+nts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ManipulationDARPA.pdf (5 pages, 2369772 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
