@@ -1,11 +1,16 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.2.13)  25 JUN 2015 17:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.29)  29 JUN 2015 15:16
 entering extended mode
-**D:/HD-PNTU2/Mis*Documentos/Empleos/Trabajo*HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex
-("D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/ManipulationDARPA.tex"
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, german, ngerman, german-x-2009-06-19, ngerm
-an-x-2009-06-19, french, loaded.
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ieeeconf.cls"
+**ManipulationDARPA.tex
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ieeeconf.cls"
 
 LaTeX Warning: You have requested document class `ieeeconf',
                but the document class provides `cssconf'.
@@ -17,7 +22,7 @@ Document Class: cssconf 2004/1/15 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
-("C:\Winapps\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
+("C:\Winapps\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \@IEEEnormalsizefontbaselineskip=\skip41
@@ -91,200 +96,325 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 )
 ** ATTENTION: Overriding command lockouts (line 3).
 ** ATTENTION: Overriding IEEE standard margins (line 4).
-("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+("C:\Winapps\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
- ("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+ ("C:\Winapps\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+("C:\Winapps\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Winapps\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+ ("C:\Winapps\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Winapps\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+("C:\Winapps\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
- ("C:\Winapps\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+ ("C:\Winapps\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Winapps\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) ("C:\Winapps\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
+) ("C:\Users\Rafael Cisneros\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endfigure, most likely
+ \let\endfigure=\end@float
+ which has now been changed to
+ \def\endfigure{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endfigure.
+ Please complain to your document class author.
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endtable, most likely
+ \let\endtable=\end@float
+ which has now been changed to
+ \def\endtable{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endtable.
+ Please complain to your document class author.
+
+("C:\Users\Rafael Cisneros\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
 )
-("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip47
+\c@KVtest=\count92
+\sf@farskip=\skip47
+\sf@captopadj=\dimen122
+\sf@capskip=\skip48
+\sf@nearskip=\skip49
+\c@subfigure=\count93
+\c@subfigure@save=\count94
+\c@lofdepth=\count95
+\c@subtable=\count96
+\c@subtable@save=\count97
+\c@lotdepth=\count98
+\sf@top=\skip50
+\sf@bottom=\skip51
+)
+("C:\Winapps\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+("C:\Winapps\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
- ("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+ ("C:\Winapps\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
-\ex@=\dimen115
+\ex@=\dimen123
 ))
-("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+("C:\Winapps\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen116
-) ("C:\Winapps\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+\pmbraise@=\dimen124
+) ("C:\Winapps\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen117
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
 \tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
 \andhelp@=\toks18
-\eqnshift@=\dimen118
-\alignsep@=\dimen119
-\tagshift@=\dimen120
-\tagwidth@=\dimen121
-\totwidth@=\dimen122
-\lineht@=\dimen123
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
 \@envbody=\toks19
-\multlinegap=\skip48
-\multlinetaggap=\skip49
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+("C:\Winapps\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-) ("C:\Winapps\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+("C:\Users\Rafael Cisneros\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
-("C:\Winapps\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+("C:\Users\Rafael Cisneros\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen124
+\scratchcounter=\count111
+\scratchdimen=\dimen132
 \scratchbox=\box29
-\nofMPsegments=\count105
-\nofMParguments=\count106
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen125
-\MPnumerator=\count108
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen133
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
- ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+ ("C:\Winapps\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
- ("C:\Winapps\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+ ("C:\Winapps\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 29.
 
-("C:\Winapps\MiKTeX 2.8\tex\latex\psnfss\ot1pcr.fd"
+("C:\Winapps\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_introduction.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_related_work.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_teleop_manip_method.tex" [1{C:/ProgramD
-ata/MiKTeX/2.8/pdftex/config/pdftex.map}
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_introduction.tex")
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_related_work.tex")
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_teleop_manip_method.tex" [1{C:/Users/Rafael Cisn
+eros/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ] <img/ManipulationMarker.png, id=10, 764.8575pt x 549.55313pt>
 File: img/ManipulationMarker.png Graphic file (type png)
 
-<use img/ManipulationMarker.png> <img/HandMarker.png, id=11, 764.8575pt x 549.55313pt>
+<use img/ManipulationMarker.png>
+Package pdftex.def Info: img/ManipulationMarker.png used on input line 36.
+(pdftex.def)             Requested size: 217.79991pt x 156.49014pt.
+ <img/HandMarker.png, id=11, 764.8575pt x 549.55313pt>
 File: img/HandMarker.png Graphic file (type png)
- <use img/HandMarker.png> [2 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Manipulatio
-nMarker.png (PNG copy)> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/HandMarker.png (
-PNG copy)>])
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_plug.tex"
+ <use img/HandMarker.png>
+Package pdftex.def Info: img/HandMarker.png used on input line 88.
+(pdftex.def)             Requested size: 217.79991pt x 156.49014pt.
+ [2 <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/ManipulationMarker.png> <E:/Mis Documentos/Em
+pleos/Trabajo HRG/Documents/ManipulationDARPA/img/HandMarker.png>])
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_plug.tex"
 <img/Sockets-Plug.png, id=15, 520.19344pt x 526.96875pt>
 File: img/Sockets-Plug.png Graphic file (type png)
  <use img/Sockets-Plug.png>
+Package pdftex.def Info: img/Sockets-Plug.png used on input line 10.
+(pdftex.def)             Requested size: 112.3474pt x 113.81102pt.
+
 <img/SocketPlugMarker.png, id=17, 549.55313pt x 526.21594pt>
 File: img/SocketPlugMarker.png Graphic file (type png)
  <use img/SocketPlugMarker.png>
+Package pdftex.def Info: img/SocketPlugMarker.png used on input line 36.
+(pdftex.def)             Requested size: 148.57419pt x 142.26378pt.
+
 <img/PreCloseHand.png, id=18, 574.39594pt x 526.21594pt>
 File: img/PreCloseHand.png Graphic file (type png)
  <use img/PreCloseHand.png>
+Package pdftex.def Info: img/PreCloseHand.png used on input line 58.
+(pdftex.def)             Requested size: 155.29056pt x 142.26378pt.
+
 <img/GraspPlug.png, id=19, 599.99156pt x 526.21594pt>
 File: img/GraspPlug.png Graphic file (type png)
  <use img/GraspPlug.png>
+Package pdftex.def Info: img/GraspPlug.png used on input line 69.
+(pdftex.def)             Requested size: 162.21045pt x 142.26378pt.
+
 Underfull \vbox (badness 1127) has occurred while \output is active []
 
- [3 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Sockets-Plug.png> <D:/HD-PNTU2/Mis D
-ocumentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/SocketPlugMarker.png>] <img/WatchPlug.png, id=25, 694.8459
-3pt x 526.96875pt>
+ [3 <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Sockets-Plug.png> <E:/Mis Documentos/Empleos/
+Trabajo HRG/Documents/ManipulationDARPA/img/SocketPlugMarker.png>] <img/WatchPlug.png, id=25, 694.84593pt x 526.96875pt>
 File: img/WatchPlug.png Graphic file (type png)
  <use img/WatchPlug.png>
+Package pdftex.def Info: img/WatchPlug.png used on input line 90.
+(pdftex.def)             Requested size: 187.58969pt x 142.26378pt.
+
 <img/InsertPlug.png, id=26, 572.89032pt x 526.21594pt>
 File: img/InsertPlug.png Graphic file (type png)
- <use img/InsertPlug.png>)
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_button.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_door.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex"
+ <use img/InsertPlug.png>
+Package pdftex.def Info: img/InsertPlug.png used on input line 108.
+(pdftex.def)             Requested size: 154.8835pt x 142.26378pt.
+)
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_button.tex")
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_door.tex")
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_results.tex"
 <img/door-drc.png, id=27, 154.176pt x 102.6234pt>
 File: img/door-drc.png Graphic file (type png)
  <use img/door-drc.png>
-<img/plug-drc.png, id=28, 149.358pt x 134.1813pt>
-File: img/plug-drc.png Graphic file (type png)
- <use img/plug-drc.png>
-<img/button-drc.png, id=29, 154.176pt x 102.6234pt>
+Package pdftex.def Info: img/door-drc.png used on input line 6.
+(pdftex.def)             Requested size: 235.1333pt x 156.49014pt.
+
+<img/button-drc.png, id=28, 154.176pt x 102.6234pt>
 File: img/button-drc.png Graphic file (type png)
- <use img/button-drc.png>)
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl"
-Underfull \hbox (badness 1540) in paragraph at lines 24--31
+ <use img/button-drc.png>
+Package pdftex.def Info: img/button-drc.png used on input line 13.
+(pdftex.def)             Requested size: 235.1333pt x 156.49014pt.
+
+<img/Plug_30_24_60.png, id=29, 1173.38374pt x 660.4675pt>
+File: img/Plug_30_24_60.png Graphic file (type png)
+ <use img/Plug_30_24_60.png>
+Package pdftex.def Info: img/Plug_30_24_60.png used on input line 29.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_32_24_23.png, id=30, 1173.38374pt x 660.4675pt>
+File: img/Plug_32_24_23.png Graphic file (type png)
+ <use img/Plug_32_24_23.png>
+Package pdftex.def Info: img/Plug_32_24_23.png used on input line 31.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_34_33_87.png, id=31, 1173.38374pt x 660.4675pt>
+File: img/Plug_34_33_87.png Graphic file (type png)
+ <use img/Plug_34_33_87.png>
+Package pdftex.def Info: img/Plug_34_33_87.png used on input line 35.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_37_23_37.png, id=32, 1173.38374pt x 660.4675pt>
+File: img/Plug_37_23_37.png Graphic file (type png)
+ <use img/Plug_37_23_37.png>
+Package pdftex.def Info: img/Plug_37_23_37.png used on input line 37.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_38_13_00.png, id=33, 1173.38374pt x 660.4675pt>
+File: img/Plug_38_13_00.png Graphic file (type png)
+ <use img/Plug_38_13_00.png>
+Package pdftex.def Info: img/Plug_38_13_00.png used on input line 41.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_39_03_07.png, id=34, 1173.38374pt x 660.4675pt>
+File: img/Plug_39_03_07.png Graphic file (type png)
+ <use img/Plug_39_03_07.png>
+Package pdftex.def Info: img/Plug_39_03_07.png used on input line 43.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_43_42_13.png, id=35, 1173.38374pt x 660.4675pt>
+File: img/Plug_43_42_13.png Graphic file (type png)
+ <use img/Plug_43_42_13.png>
+Package pdftex.def Info: img/Plug_43_42_13.png used on input line 47.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+
+<img/Plug_44_51_93.png, id=36, 1173.38374pt x 660.4675pt>
+File: img/Plug_44_51_93.png Graphic file (type png)
+ <use img/Plug_44_51_93.png>
+Package pdftex.def Info: img/Plug_44_51_93.png used on input line 49.
+(pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
+)
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\sec_conclusions.tex")
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.bbl" [4 <E:/Mis Documentos/Empleos
+/Trabajo HRG/Documents/ManipulationDARPA/img/PreCloseHand.png> <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/Manipula
+tionDARPA/img/GraspPlug.png> <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/WatchPlug.png> <E:/M
+is Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/InsertPlug.png>]
+Underfull \hbox (badness 2452) in paragraph at lines 24--31
 []\OT1/ptm/m/n/8 Kapil D. Katyal, Christo-pher Y. Brown, Steven A. Hecht-man,
- []
-
-[4 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/PreCloseHand.png> <D:/HD-PNTU2/Mis Do
-cumentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/GraspPlug.png> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo 
-HRG/Documents/ManipulationDARPA/img/WatchPlug.png> <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/Manipulatio
-nDARPA/img/InsertPlug.png>]
-Underfull \hbox (badness 5817) in paragraph at lines 64--69
-\OT1/ptm/m/n/9 Amaz-ing mo-ments, lessons learned, and what's next.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--69
-\OT1/pcr/m/n/9 http : / / http : / / spectrum . ieee . org / automaton /
  []
 
 )
@@ -299,25 +429,30 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[5 <D:/HD-PNTU2/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/door-drc.png (PNG copy)> <D:/HD-PNTU2
-/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/plug-drc.png (PNG copy)> <D:/HD-PNTU2/Mis Documentos
-/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/button-drc.png>]
-("D:\HD-PNTU2\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
+[5 <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/door-drc.png> <E:/Mis Documentos/Empleos/Traba
+jo HRG/Documents/ManipulationDARPA/img/button-drc.png> <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARP
+A/img/Plug_30_24_60.png> <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Plug_32_24_23.png> <E:/M
+is Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Plug_34_33_87.png> <E:/Mis Documentos/Empleos/Trabajo 
+HRG/Documents/ManipulationDARPA/img/Plug_37_23_37.png> <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARP
+A/img/Plug_38_13_00.png> <E:/Mis Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Plug_39_03_07.png> <E:/M
+is Documentos/Empleos/Trabajo HRG/Documents/ManipulationDARPA/img/Plug_43_42_13.png> <E:/Mis Documentos/Empleos/Trabajo 
+HRG/Documents/ManipulationDARPA/img/Plug_44_51_93.png>]
+("E:\Mis Documentos\Empleos\Trabajo HRG\Documents\ManipulationDARPA\ManipulationDARPA.aux") ) 
 Here is how much of TeX's memory you used:
- 2390 strings out of 495285
- 35318 string characters out of 3180829
- 91920 words of memory out of 3000000
- 5543 multiletter control sequences out of 15000+200000
+ 3393 strings out of 493921
+ 53154 string characters out of 3149658
+ 110039 words of memory out of 3000000
+ 6618 multiletter control sequences out of 15000+200000
  41778 words of font info for 89 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 27i,8n,24p,340b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Winapps/MiKTeX
- 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.8/fonts/type1/urw/courier/ucrr8a.pfb><C:/Winapps/MiKTeX 2.8/fo
-nts/type1/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/typ
-e1/urw/times/utmr8a.pfb><C:/Winapps/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (5 pages, 2369772 bytes).
+ 841 hyphenation exceptions out of 8191
+ 36i,9n,47p,265b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Winapps/MiKTeX 2.9/font
+s/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Winapps/MiKTeX 2.9/fonts/type1
+/urw/times/utmb8a.pfb><C:/Winapps/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb><C:/Winapps/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ManipulationDARPA.pdf (5 pages, 11977824 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

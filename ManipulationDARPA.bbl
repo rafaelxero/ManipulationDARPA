@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{Bouyarmane}
 K.~Bouyarmane, J.~Vaillant, K.~Fran\c{c}ois, and A.~Kheddar.
@@ -59,12 +59,5 @@ Oussama Kanoun, Florent Lamiraux, and Pierre-Brice Wieber.
 DARPA.
 \newblock Darpa robotics challenge finals 2015.
 \newblock \small \url{http://www.theroboticschallenge.org/}, 2015.
-
-\bibitem{Spectrum}
-Evan Ackerman and Erico Guizzo.
-\newblock Darpa robotics challenge: Amazing moments, lessons learned, and
-  what's next.
-\newblock \small
-  \url{http://http://spectrum.ieee.org/automaton/robotics/humanoids/}, 2015.
 
 \end{thebibliography}
