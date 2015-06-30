@@ -1,2 +1,16 @@
 \section{Related Work}
 	\label{sec:related_work}
+	
+	From some years ago, there has been plenty of research on fully autonomous robots capable of performing
+	tasks in structured environments (kitchens, offices, etc.), as the one presented by Blodow et al~\cite{Blodow}
+	or Beetz et al~\cite{Beetz}.
+	For that purpose many different control architectures have been proposed, some of them are described by
+	Medeiros~\cite{Medeiros}.
+	For non-structured environments there is one basic paradigm called \emph{supervised autonomy},
+	proposed first by Cheng and Zelinsky~\cite{Cheng}, which has become the current state of art for
+	the DARPA Robotics Challenge since the Trials and also for the Finals.
+	During these competitions, each team relied on an Graphic User Interface (GUI) showing the a 3D model of the
+	robot and the environment, in such a way that the operator(s) could control the robot beyond the joint-level,
+	by specifying task-level commands that were robot-centric and/or object centric, as described by the teams
+	Tartan Rescue~\cite{Dellin}, MIT~\cite{Fallon}, RoboSimian~\cite{Hebert} and ViGIR~\cite{Romay}.
+	In this paper, we describe our implementation of this approach.

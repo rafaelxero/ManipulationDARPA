@@ -1,10 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Bouyarmane}
 K.~Bouyarmane, J.~Vaillant, K.~Fran\c{c}ois, and A.~Kheddar.
 \newblock Exploring humanoid robots locomotion capabilities in virtual disaster
   response scenarios.
-\newblock In {\em IEEE-RAS International Conference on Humanoid Robots}, 2012.
+\newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2012.
 
 \bibitem{Kohlbrecher}
 Stefan Kohlbrecher, Alberto Romay, Alexander Stumpf, Anant Gupta, and Oskar~von
@@ -18,7 +18,12 @@ Alberto Romay, Stefan Kohlbrecher, David~C. Conner, Alexander Stumpf, and
   Oskar~von Stryk.
 \newblock Template-based manipulation in unstructured environments for
   supervised semi-autonomous humanoid robots.
-\newblock In {\em IEEE-RAS International Conference on Humanoid Robots}, 2014.
+\newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2014.
+
+\bibitem{Stormont}
+Daniel~P. Stormont and Vicki~H. Allan.
+\newblock Managing risk in disaster scenarios with autonomous robots.
+\newblock {\em Systemics, Cybernetics and Informatics}, 7(4), 2009.
 
 \bibitem{Katyal}
 Kapil~D. Katyal, Christopher~Y. Brown, Steven~A. Hechtman, Matthew~P. Para,
@@ -26,8 +31,54 @@ Kapil~D. Katyal, Christopher~Y. Brown, Steven~A. Hechtman, Matthew~P. Para,
   Edward~W. Tunstel, Michael~P. McLoughlin, and Matthew~S. Johannes.
 \newblock Approaches to robotic teleoperation in a disaster scenario: From
   supervised autonomy to direct control.
-\newblock In {\em IEEE/RSJ International Conference on Intelligent Robots and
-  Systems (IROS)}, 2014.
+\newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
+  (IROS)}, 2014.
+
+\bibitem{Blodow}
+Nico Blodow, Lucian Cosmin~Goron, Zoltan-Csaba Marton, Dejan Pangercic, Thomas
+  R\"uhr, Moritz Tenorth, and Michael Beetz.
+\newblock Autonomous semantic mapping for robots performing everyday
+  manipulation tasks in kitchen environments.
+\newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
+  (IROS)}, 2011.
+
+\bibitem{Beetz}
+Michael Beetz and Maren Bennewitz.
+\newblock Planning, scheduling, and plan execution for autonomous robot office
+  couriers.
+\newblock In {\em Integrating Planning, Scheduling and Execution in Dynamic and
+  Uncertain Environments, volume Workshop Notes}. AAAI Press, 1998.
+
+\bibitem{Medeiros}
+Adelardo A.~D. Medeiros.
+\newblock A survey of control architectures for autonomous mobile robots.
+\newblock {\em Journal of the Brazilian Computer Society}, 4(3), 1998.
+
+\bibitem{Cheng}
+Gordon Cheng and Alexander Zelinsky.
+\newblock Supervised autonomy: A paradigm for teleoperating mobile robots.
+\newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
+  (IROS)}, 1997.
+
+\bibitem{Dellin}
+Christopher Dellin, Kyle Strabala, Galen~Clark Haynes, David Stager, and
+  Siddhartha Srinivasa.
+\newblock Guided manipulation planning at the darpa robotics challenge trials.
+\newblock In {\em Int. Symposium on Experimental Robotics (ISER)}, 2014.
+
+\bibitem{Fallon}
+Maurice Fallon, Scott Kuindersma, Sisir Karumanchi, Matthew Antone, et~al.
+\newblock An architecture for online affordance-based perception and whole-body
+  planning.
+\newblock Technical report, Massachusetts Institute of Technology, 2014.
+
+\bibitem{Hebert}
+Paul Hebert, Jeremy Ma, James Borders, Alper Aydemir, Max Bajracharya, Nicolas
+  Hudson, Krishna Shankar, Sisir Karumanchi, Bertrand Douillard, and Joel
+  Burdick.
+\newblock Supervised remote robot with guided autonomy and teleoperation
+  (surrogate): A framework for whole-body mobile manipulation.
+\newblock In {\em IEEE Int. Conf. on Robotics and Automation (ICRA)}, 2015.
 
 \bibitem{Nakaoka_Choreonoid}
 S.~Nakaoka, S.~Kajita, and K.~Yokoi.
@@ -41,7 +92,7 @@ Mitsuharu Morisawa, Shuuji Kajita, Fumio Kanehiro, Kenji Kaneko, Kanako Miura,
   and Kazuhiro Yokoi.
 \newblock Balance control based on capture point error compensation for biped
   walking on uneven terrain.
-\newblock In {\em IEEE-RAS International Conference on Humanoid Robots}, 2012.
+\newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2012.
 
 \bibitem{Perrin}
 N.~Perrin.

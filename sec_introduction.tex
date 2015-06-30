@@ -3,33 +3,35 @@
 
 	Disaster response is attracting attention from the robotics research community, and even more since the
 	Fukushima Daiichi nuclear power plant accident that followed the 2011 Great East Japan earthquake and tsunami.
-	As a concrete materialization of this increasing interest, a challenge is proposed by the American Defense
+	As a concrete materialization of this increasing interest, a challenge was proposed by the American Defense
 	Advanced Research Projects Agency (DARPA) to use robots in disaster-hit facilities that were made too hazardous
 	for direct human operator intervention.
-	It is worth noticing that the challenge does not impose any constraint on the design of the robot, but since the
+	It is worth noticing that the challenge did not impose any constraint on the design of the robot, but since the
 	environment (industrial ladders, doors, valves, cars) as well as the tools (levers, drills, hammers) were meant
-	to comply with the human morphology, it is a natural option to develop the necessary means to make the humanoid
+	to comply with the human morphology, it was a natural option to develop the necessary means to make the humanoid
 	robots capable of performing inspection and disaster recovering actions inside a non-structured environment
 	\cite{Bouyarmane}.
 	
 	This environment can be considered to be ``kind of'' known in the sense that we know which actions
-	are required in advance and that we have a rough idea of its spatial distribution,
-	maybe altered due to the disaster itself.
+	are required in advance and that we have a rough idea of the spatial distribution of this environment,
+	altered due to the disaster itself.
 	Given these conditions, only very limited assumptions about the structure of the environment can
 	be made beforehand, in contrast to structured scenarios where semantic knowledge of their structure
 	can be leveraged for highly autonomous robots operating in them~\cite{Kohlbrecher}.
+	
 	Furthermore, it is also mandatory to consider that within a disaster-hit facility it is not possible
 	to rely on a stable, wide bandwidth wireless communication system with the robot.
 	The signal may be degraded and blackouts may occur frequently.
-	
 	Then, it is not feasible to consider a purely teleoperated robot.
 	First, because of the high dimensionality of its control system, and second because the capabilities of
 	the robot and the operator should include near real-time feedback without disruptions in the communications
 	as well as transmission of large amounts of data to the operator.
-	On the other hand, a fully autonomous robot navigating and interacting in an unconstrained environment
+	On the other hand, a fully autonomous robot navigating and interacting in an non-structured environment
 	should include extensive databases of information about possible objects of interest to be found,
 	highly efficient grasping algorithms and the ability to react to unforeseen situations,
 	which are still unsolved problems~\cite{Romay}.
+	Furthermore, failures are critical and up to now no fully autonomous robotic system has shown to be highly
+	reliable,	especially under unexpected conditions~\cite{Stormont}.
 	A feasible alternative is the development of supervised semi-autonomous high Degrees-Of-Freedom (DOF)
 	robotic systems; that is, task-level teleoperated systems in which the operator cognitive burden is
 	minimized by lowering the control space dimensionality~\cite{Katyal}, such that these operators function
