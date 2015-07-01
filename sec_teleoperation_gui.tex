@@ -1,0 +1,61 @@
+\section{Graphical User Interface for Teleoperation}
+	\label{sec:teleoperation_gui}
+	
+	The Graphical User Interface (GUI) used for the teleoperation of HRP-2Kai was implemented
+	in Choreonoid, an integrated robotics GUI environment~\cite{Choreonoid}~\cite{Nakaoka_Choreonoid}.
+	A snapshot of this GUI is shown in \figurename~\ref{fig:Choreonoid2}.
+	As can be seen, the teleoperation interface features several windows, each one of them
+	corresponding to
+	%
+	\begin{inparaenum}[(1)]
+		\item the scene view,
+		\item the task sequencer,
+		\item the head camera,
+		\item the right hand camera,
+		\item the left hand camera,
+		\item the item view, and
+		\item the property view.
+	\end{inparaenum}
+		
+	\begin{figure}[t]
+		\centering
+		\includegraphics[height = 5.35cm]{img/Choreonoid2}
+		\caption{Teleoperation interface implemented in Choreonoid~\cite{Nakaoka_Humanoids}.}
+		\label{fig:Choreonoid2}
+	\end{figure}
+	
+	The scene view is used to teleoperate the robot through the direct control of a 3D model
+	showing the robot's current configuration, as well as the planned motion represented by
+	one (or several) translucent version(s) of the robot, one per each key configuration.
+	The \emph{point cloud} of data corresponding to the measured points on the surface of the
+	objects in the environment is captured by the 3D scanner and presented also in the scene view.
+	From this information it is possible to extract the \emph{height field} of the floor,
+	used by the walking control system to achieve a stable gait over uneven terrain~\cite{Morisawa},
+	as well as to detect obstacles and objects of interest in the environment in order to perform
+	a proper whole-body collision-free posture planning, as required by the manipulation
+	task~\cite{Kanoun}.
+	
+	The object that is the target of the manipulation task can be identified in the point cloud
+	by overlapping a simplified 3D model of it, as shown in \figurename~\ref{fig:Choreonoid2}.
+	This model, referred as \emph{Manipulation Marker}, provide a reference frame with respect
+	to which the manipulation task can be described once it is aligned with the corresponding
+	points.
+	This alignment can be done manually by using a set of arrows and rings provided by the interface
+	to translate and rotate the marker, or automatically with the aid of a built-in function included
+	in the Point Cloud Library (PCL), used by Choreonoid.
+	
+	The manipulation motion is specified by providing the attitude (position and orientation)
+	of the hands of the robot, and calculated by solving the whole-body inverse kinematics
+	problem~\cite{Kanoun}.
+	This motion can be either planned in advance or manually changed during the execution of the task
+	by using \emph{Hand Markers} (3D models of the hands that can also be translated and rotated).
+	
+	The \emph{task sequencer} is provided by the interface to execute a previously planned manipulation
+	task step by step, such that the complex perception be entrusted to the operator, which	can also
+	supervise every step of the task.
+	For some tasks the point cloud does not provide enough information for them to be performed effectively.
+	Then, the operator can also rely on the image captured by every camera,
+	and shown in the corresponding window.
+	Finally, the item window enlists the components required by Choreonoid to implement the teleoperation
+	interface, shown together with their properties.
+	

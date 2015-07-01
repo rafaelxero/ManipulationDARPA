@@ -80,12 +80,31 @@ Paul Hebert, Jeremy Ma, James Borders, Alper Aydemir, Max Bajracharya, Nicolas
   (surrogate): A framework for whole-body mobile manipulation.
 \newblock In {\em IEEE Int. Conf. on Robotics and Automation (ICRA)}, 2015.
 
+\bibitem{Kaneko}
+Kenji Kaneko, Mitsuharu Morisawa, Shuuji Kajita, Shin'ichiro Nakaoka, Takeshi
+  Sakaguchi, Rafael Cisneros, and Fumio Kanehiro.
+\newblock Humanoid robot hrp-2kai - improvement of hrp-2 towards disaster
+  response tasks.
+\newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots (submitted)}, 2015.
+
+\bibitem{Choreonoid}
+Shin'ichiro Nakaoka.
+\newblock Choreonoid.
+\newblock \small \url{http://www.choreonoid.org/en/}, 2015.
+
 \bibitem{Nakaoka_Choreonoid}
-S.~Nakaoka, S.~Kajita, and K.~Yokoi.
+Shin'ichiro Nakaoka, Shuuji Kajita, and Kazuhito Yokoi.
 \newblock Intuitive and flexible user interface for creating whole body motions
   of biped humanoid robots.
 \newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
   (IROS)}, pages 1675--1681, Taipei, Taiwan, October 2010.
+
+\bibitem{Nakaoka_Humanoids}
+Shin'ichiro Nakaoka, Mitsuharu Morisawa, Rafael Cisneros, Takeshi Sakaguchi,
+  Shuuji Kajita, Kenji Kaneko, and Fumio Kanehiro.
+\newblock Task sequencer integrated into a teleoperation interface for biped
+  humanoid robots.
+\newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots (submitted)}, 2015.
 
 \bibitem{Morisawa}
 Mitsuharu Morisawa, Shuuji Kajita, Fumio Kanehiro, Kenji Kaneko, Kanako Miura,
@@ -93,12 +112,6 @@ Mitsuharu Morisawa, Shuuji Kajita, Fumio Kanehiro, Kenji Kaneko, Kanako Miura,
 \newblock Balance control based on capture point error compensation for biped
   walking on uneven terrain.
 \newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2012.
-
-\bibitem{Perrin}
-N.~Perrin.
-\newblock {\em Footstep Planning for Humanoid Robots: Discrete and Continuous
-  Approaches}.
-\newblock PhD thesis, University of Toulousse, 2011.
 
 \bibitem{Kanoun}
 Oussama Kanoun, Florent Lamiraux, and Pierre-Brice Wieber.
