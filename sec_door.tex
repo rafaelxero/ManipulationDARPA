@@ -3,7 +3,7 @@
 
 \subsection{Outline of door task}
 %
-In DRC Finals, the door task has special importance, bacause without passing it, a robot could not approach five rest tasks (valve, wall, surprise, debri or terrain, and stairs).
+In DRC Finals, the door task has special importance, because without passing it, a robot could not approach five rest tasks (valve, wall, surprise, debris or terrain, and stairs).
    
 In general, we can separate door passing task into the following phases.
 %
@@ -24,17 +24,17 @@ In general, we can separate door passing task into the following phases.
 %\end{itemize}
 
 At the end of the second phase, a robot get a pose standing with a hand grasping 
-the door lever. Let us call this the {\it opendoor pose} as illustrated in \figurename~\ref{fig:door_approaching_config}.
+the door lever. Let us call this the {\it open-door pose} as illustrated in \figurename~\ref{fig:door_approaching_config}.
 In our approach, we specify a specific standing point and a wrist positioning with respect to 
 the door lever as shown in the figure.
 By this way, the rest phases 3) and 4) start from the same configuration, thus we can 
 use a pre-programmed sequence for the door operation and door passing.
-Even we face variations of door geometry, it can be handled by minumum modification by this way.
+Even we face variations of door geometry, it can be handled by minimum modification by this way.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width = 6cm]{img/door_approaching_config.eps}
-  \caption{Opendoor pose}
+  \caption{Open-door pose}
   \label{fig:door_approaching_config}
 \end{figure}
 
@@ -48,21 +48,21 @@ Even we face variations of door geometry, it can be handled by minumum modificat
 %from this fixed configuration. This means we can use a programmed sequence or its minimum
 %modification at the door task.  
 
-In the following subsections, we explains phase 1) and 2), the way of robot control to get the opendoor pose
-by the sensor information and teleoperation. The phase 3) and 4) can be easily impremented. 
-Especially in the DRC Finals, once the door was opend enough, it opened by gravity
+In the following subsections, we explains phase 1) and 2), the way of robot control to get the open-door pose
+by the sensor information and teleoperation. The phase 3) and 4) can be easily implemented. 
+Especially in the DRC Finals, once the door was opened enough, it opened by gravity
 and remained opening, since the door hinge was inclined 2.6 degrees from vertical.
-This helped robots walk though without worring corrision with the opend door, which eventually hit the
+This helped robots walk though without worrying collision with the opened door, which eventually hit the
 robot by wind in usual case. 
 
 \subsection{Walk to the front of the door}
 %
 To navigate a robot to the position as specified in \figurename~\ref{fig:door_approaching_config}, we use
 point cloud data measured by LRF. 
-We took two step manual operations to idenfity the door orientaion and the position of the door lever 
+We took two step manual operations to identify the door orientation and the position of the door lever 
 as illustrated in Fig.\ref{fig:door_manip_markers}.
 
-First, an operator specifies a point on the point on the left edge of the door panel (\figurename~\ref{fig:door_manip_markers}(a) `x' mark pointed by arrow). By appling the least square method to the point cloud exist on the right of the specified point, we can calculate the orientation of the door panel.
+First, an operator specifies a point on the point on the left edge of the door panel (\figurename~\ref{fig:door_manip_markers}(a) `x' mark pointed by arrow). By applying the least square method to the point cloud exist on the right of the specified point, we can calculate the orientation of the door panel.
 The result is shown by the {\it door marker}, a gray rectangle in \figurename~\ref{fig:door_manip_markers}(b).
 It covers a part of the door panel and we can interactively manipulate it on the 
 point cloud GUI. By adjusting the door marker, we can mask the points for the door panel and extract the points for the door lever as shown in \figurename~\ref{fig:door_manip_markers}(c).
@@ -86,10 +86,10 @@ Now the robot is standing on the good place to grasp the door knob.
 %By the method of previous subsection, we can expect our robot is standing in front of the door aligned to its surface normal with desired distance.
 Instead of grasping the door knob directry, we move the robot hand to an {\it approach point},
 which is placed at a certain distance (0.13m) from the knob. 
-Because, the hand position may not be acculate enough due to the LRF measurement noise, callibration error,
+Because, the hand position may not be accurate enough due to the LRF measurement noise, calibration error,
 and the slip of walking.
 
-Figure \ref{fig:door_lever_grasp}(a) show the robot at the opendoor pose whose hand is at the approach point (right window) in Choreonoid simulator. The left window shows the simulated view of the left hand camera. Both images show that the left hand is appropriate to grasp the door knob. Note that in real robot control, only the camera view is avairable. 
+Figure \ref{fig:door_lever_grasp}(a) show the robot at the open-door pose whose hand is at the approach point (right window) in Choreonoid simulator. The left window shows the simulated view of the left hand camera. Both images show that the left hand is appropriate to grasp the door knob. Note that in real robot control, only the camera view is available. 
 
  An operator can manually adjust the hand position by the GUI buttons of 
 {\it Left},{\it Right},{\it Down}, and {\it Up} as seen in the left window bottom. In this case, an operator
