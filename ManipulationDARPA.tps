@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=sec_hrp2kai.tex
 
 [Frame2_View0,0]
-TopLine=21
-Cursor=1535
+TopLine=20
+Cursor=1371
 
 [Frame3]
 Flags=0
@@ -107,8 +107,8 @@ Class=LaTeXView
 Document=sec_door.tex
 
 [Frame5_View0,0]
-TopLine=0
-Cursor=238
+TopLine=102
+Cursor=4734
 
 [Frame6]
 Flags=0
@@ -148,5 +148,5 @@ Cursor=0
 
 [SessionInfo]
 FrameCount=8
-ActiveFrame=4
+ActiveFrame=5
 
