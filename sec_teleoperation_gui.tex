@@ -20,7 +20,7 @@
 	\begin{figure}[t]
 		\centering
 		\includegraphics[height = 5.35cm]{img/Choreonoid2}
-		\caption{Teleoperation interface implemented in Choreonoid~\cite{Nakaoka_Humanoids}.}
+		\caption{Teleoperation interface in Choreonoid~\cite{Nakaoka_Humanoids}.}
 		\label{fig:Choreonoid2}
 	\end{figure}
 	
@@ -59,3 +59,18 @@
 	Finally, the item window enlists the components required by Choreonoid to implement the teleoperation
 	interface, shown together with their properties.
 	
+	By using this interface we implemented all the manipulation tasks required during the
+	DARPA Robotics Challenge:
+	%
+	\begin{inparaenum}[(1)]
+		\item opening a door,
+		\item turning a valve,
+		\item cutting a wall with a drill, and
+		\item a surprise task which consisted in opening a box and pushing a button (rehersal day),
+					pulling down a lever (first day of the competition) or
+					pulling a plug out of a socket and inserting it into another one (second day of the competition).
+	\end{inparaenum}
+	%
+	Given that the approach to implement each one of them was similar,
+	we will only explain two representative ones:
+	the door task and the plug task.
