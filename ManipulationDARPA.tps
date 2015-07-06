@@ -161,8 +161,8 @@ Class=LaTeXView
 Document=sec_door.tex
 
 [Frame8_View0,0]
-TopLine=59
-Cursor=2847
+TopLine=112
+Cursor=6568
 
 [Frame9]
 Flags=0

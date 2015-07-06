@@ -11,8 +11,8 @@ In general, we can divide the execution of the door task into the following phas
 %
 \begin{enumerate}
 	\item Walk to the front of the door.
-	\item Grasp the door knob.
-	\item Turn the knob and open the door.
+	\item Grasp the door lever.
+	\item Turn the lever and open the door.
 	\item Walk through the door.
 \end{enumerate}
 %
@@ -21,7 +21,7 @@ In general, we can divide the execution of the door task into the following phas
 %
 %\begin{itemize}
 %\item push open style,
-%\item with lever type door knob, and
+%\item with lever type door lever, and
 %\item without door closer.
 %\end{itemize}
 
@@ -44,11 +44,11 @@ they can be handled by means of a minimum modifications.
 
 %From Step1 to Step2, we control our robot to realize the door approaching pose.
 %To realize a reliable door passing, we pre-determined
-%a robot pose grasping the door knob.
+%a robot pose grasping the door lever.
 %Let us call it as {\it door approaching pose} which specifies the
 %wrist point and the standing point with respect to the door lever
 
-%The door knob operation (Step3) and the door passing through (Step4) always start
+%The door lever operation (Step3) and the door passing through (Step4) always start
 %from this fixed configuration. This means we can use a programmed sequence or its minimum
 %modification at the door task.  
 
@@ -60,57 +60,73 @@ Especially at the DRC Finals, once the door had been opened wide enough, it ende
 completely by means of gravity and remaining open, since the door hinge was inclined 2.6 degrees
 away from the vertical.
 This helped the robots to walk through the door without worrying about any collision with
-the opened door's panel, which would eventually hit the robot during a general situation
+the opened door panel, which would eventually hit the robot during a general situation
 by means of the action of the wind. 
 
 \subsection{Walk to the front of the door}
 %
-To navigate a robot to the position as specified in \figurename~\ref{fig:door_approaching_config}, we use
-point cloud data measured by LRF. 
-We took two step manual operations to identify the door orientation and the position of the door lever 
-as illustrated in Fig.\ref{fig:door_manip_markers}.
+To navigate the robot to the pose specified in \figurename~\ref{fig:door_approaching_config},
+we used the point cloud data measured by the LRF. 
+We took a two-step manual operation to identify the door orientation and the position of the
+door lever as illustrated in \figurename~\ref{fig:door_manip_markers}.
 
-First, an operator specifies a point on the point on the left edge of the door panel (\figurename~\ref{fig:door_manip_markers}(a) `x' mark pointed by arrow). By applying the least square method to the point cloud exist on the right of the specified point, we can calculate the orientation of the door panel.
-The result is shown by the {\it door marker}, a gray rectangle in \figurename~\ref{fig:door_manip_markers}(b).
-It covers a part of the door panel and we can interactively manipulate it on the 
-point cloud GUI. By adjusting the door marker, we can mask the points for the door panel and extract the points for the door lever as shown in \figurename~\ref{fig:door_manip_markers}(c).
+First, the operator specifies a point on the left edge of the door panel
+(\figurename~\ref{fig:door_manip_markers}(a) the `x' mark pointed by the arrow).
+By applying the least square method to the portion of the point cloud located at the right of
+the specified point, we can calculate the orientation of the door panel.
+The result is shown by the {\it door marker}, a gray rectangle in
+\figurename~\ref{fig:door_manip_markers}(b).
+It covers a part of the door panel and we can interactively manipulate it on the point cloud GUI.
+By adjusting the door marker, we can mask the points of the door panel and extract the points of
+the door lever as shown in \figurename~\ref{fig:door_manip_markers}(c).
 %Since the door lever is relatively small with respect to the point cloud resolution,
 %it contains only 10 to 20 points which makes conventional model fitting very difficult.
 %Thanks to the robustness of the human perception, 
-By this way, we can confidently mark the rotation center of the lever (pointed by arrow).
-Figure \ref{fig:door_manip_markers}(d) show the manipulation marker for the door lever placed on the point cloud. Its position and orientation is used to navigate the robot to the desired point for door opening.
+In this way, we can confidently mark the rotation center of the lever (pointed by the arrow).
+\figurename~\ref{fig:door_manip_markers}(d) shows the manipulation marker for the door lever
+placed on the point cloud.
+Its position and orientation are used to navigate the robot to the desired pose for opening
+the door.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width = 7.5cm]{img/door_manipulation_markers}
+  \includegraphics[width = 8cm]{img/door_manipulation_markers}
   \caption{Detection of the door lever in the control window}
   \label{fig:door_manip_markers}
 \end{figure}
-		
 
-\subsection{Grasp the door knob}
+\subsection{Grasp the door lever}
 %
-Now the robot is standing on the good place to grasp the door knob.
-%By the method of previous subsection, we can expect our robot is standing in front of the door aligned to its surface normal with desired distance.
-Instead of grasping the door knob directry, we move the robot hand to an {\it approach point},
-which is placed at a certain distance (0.13m) from the knob. 
-Because, the hand position may not be accurate enough due to the LRF measurement noise, calibration error,
-and the slip of walking.
+Now the robot is standing on a good place to grasp the door lever.
+%By the method of previous subsection, we can expect our robot is standing in front of the door
+%aligned to its surface normal with desired distance.
+Instead of grasping the door lever directly, we move the robot hand to an {\it approach point},
+which is placed at a certain distance (0.13m) from the lever. 
+This is because the hand position may not be accurate enough due to the LRF measurement noise,
+calibration error, and slip occurring while walking.
 
-Figure \ref{fig:door_lever_grasp}(a) show the robot at the open-door pose whose hand is at the approach point (right window) in Choreonoid simulator. The left window shows the simulated view of the left hand camera. Both images show that the left hand is appropriate to grasp the door knob. Note that in real robot control, only the camera view is available. 
+Figure \ref{fig:door_lever_grasp}(a) shows the robot at the open-door pose and its hand at the
+approach point (right window) in Choreonoid simulator.
+The left window shows the simulated view of the left hand camera.
+Both images show that the left hand is appropriate to grasp the door lever.
+Note that during the real robot control, only the camera view is available. 
 
- An operator can manually adjust the hand position by the GUI buttons of 
-{\it Left},{\it Right},{\it Down}, and {\it Up} as seen in the left window bottom. In this case, an operator
-can adjust the hand position by hitting {\it Right} button several times.
+The operator can manually adjust the hand position by using some GUI buttons: 
+{\it Left}, {\it Right}, {\it Down}, and {\it Up}, as seen in the left bottom window.
+In this case, the operator can adjust the hand position by hitting {\it Right} button
+several times.
 Figure \ref{fig:door_lever_grasp}(b) shows the adjusted hand position to grasp the lever.
 
-Figure \ref{fig:door_lever_grasp}(c) show the final state getting the good grasp of the door lever. From this moment, the point cloud based manipulation marker is no longer used. For example, the center of the knob rotation is determined using the hand position calculated from the internal sensors (joint encoders and posture sensors). 
+Figure \ref{fig:door_lever_grasp}(c) shows the final state getting a good grasp of the door lever.
+From this moment, the point cloud based manipulation marker is no longer used.
+For example, the rotation center of the lever is determined using the hand position calculated from
+the internal sensors (joint encoders and posture sensors). 
 %By hitting the button 'OK', the robot move the left hand forward until it contacts the door surface (we specified a sleshold of 5N to detect the contact).  The hand is in contact with appropriate position to grasp the door lever in \figurename~\ref{fig:door_lever_grasp}(c).
 %
 \begin{figure}[t]
   \centering
   \includegraphics[width = 7.5cm]{img/approach_door_lever}
-  \caption{Approach for door lever grasping}
+  \caption{Approach for grasping the door lever}
   \label{fig:door_lever_grasp}
 \end{figure}
 
@@ -121,13 +137,14 @@ Figure \ref{fig:door_lever_grasp}(c) show the final state getting the good grasp
 %  \label{fig:door_opening}
 %\end{figure}
 
-\subsection{Results at DRC Finals}
+\subsection{Result at DRC Finals}
 %
-In the DRC Finals 2015, HRP-2Kai cleared the door task in the rehasal on June 4 and in
-the challenge on June 6. Figure \ref{fig:drc_door_aist_day2} shows the robot (a) scanned LRF 
-to obtain point cloud, (b) walked to the point of the opendoor pose, (c) grasp the door lever, and (d)
- opend the door successfully. The robot spent 5 minute 21 seconds from the LRF scanning to get the 
-robot fully passed the door.
+At the DRC Finals 2015, HRP-2Kai cleared the door task at the rehearsal on June 4 and during
+the challenge on June 6.
+\figurename~\ref{fig:drc_door_aist_day2} shows the robot (a) while scanning with the LRF to
+obtain a point cloud, (b) walking to the the open-door pose, (c) grasping the door lever,
+and (d) opening the door successfully.
+The robot spent 5 minutes and 21 seconds from the LRF scanning to fully pass the door.
 %
 \begin{figure}[t]
   \centering
@@ -136,32 +153,35 @@ robot fully passed the door.
   \label{fig:drc_door_aist_day2}
 \end{figure}
 
-In the challenge on June 5, HRP-2Kai failed the door lever operation and tried to
-grasp again by manual teleoperation. During this operation, we had a low level control system crash, 
-and the robot had fell (\figurename~\ref{fig:drc_door_aist_day1}).
-Since we had the computer stopped as well as the hardware damage, we had to abort the challenge of that day. 
+During the challenge on June 5, HRP-2Kai failed to operate the door lever at first,
+requiring a second attempt to grasp it again, which was done by manual teleoperation.
+During this operation, we experienced a low level control system crash, and the robot
+fell down (\figurename~\ref{fig:drc_door_aist_day1}).
+Since the computer stopped working and the hardware was damaged, we had to abort the
+challenge for that day. 
 %
 \begin{figure}[t]
   \centering
   \includegraphics[width = 7.5cm]{img/drc_door_aist_day1}
-  \caption{Crash accident at DRC Finals on June 5}
+  \caption{Control system crash at DRC Finals on June 5}
   \label{fig:drc_door_aist_day1}
 \end{figure}
 
-The robot failed the lever operation because the doors in DRC Finals had different latch properties
-as shown in Table.\ref{tbl:door_latch}. On day1, We had hard-corded the latch rotation angle as 30 degrees,
-which worked at the rehasal. Of course, such imprementation is not acceptable 
-for the actual disaster responce robots.
+The robot failed to operate the lever because the doors in DRC Finals had different
+latch properties, as shown in Table~\ref{tbl:door_latch}.
+On day 1, we hard-corded the latch rotation angle as 30 degrees,
+which worked at the rehearsal.
+Of course, such implementation is not acceptable for the actual disaster response robots.
 %
 \begin{table}[htb]
 \caption{Door latch properties at DRC finals} \label{tbl:door_latch}
 \begin{tabular}{lclc}
 \hline
-Course & Angle of latch release & Date & Door task result  \\ 
+Course & Latch release angle & Date & Door task result  \\ 
 \hline
-Green & 30 deg & June 4 (rehasal) & Success  \\
-Yellow & 70 deg & June 5 (day1) & Fail \\
-Blue &  50 deg & June 6 (day2)  & Success \\
+Green & 30 deg & June 4 (rehearsal) & Success  \\
+Yellow & 70 deg & June 5 (day 1) & Fail \\
+Blue &  50 deg & June 6 (day 2)  & Success \\
 \hline
 \end{tabular}
 \end{table}
