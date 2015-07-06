@@ -17,7 +17,7 @@ Class=BibTeXView
 Document=ManipulationDARPA.bib
 
 [Frame0_View0,0]
-TopLine=114
+TopLine=113
 Cursor=5174
 
 [Frame1]
@@ -72,7 +72,7 @@ Document=sec_plug.tex
 
 [Frame3_View0,0]
 TopLine=125
-Cursor=6825
+Cursor=6616
 
 [Frame4]
 Flags=0

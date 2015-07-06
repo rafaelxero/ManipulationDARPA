@@ -1,21 +1,19 @@
 \begin{thebibliography}{10}
 
 \bibitem{Bouyarmane}
-K.~Bouyarmane, J.~Vaillant, K.~Fran\c{c}ois, and A.~Kheddar.
+K.~Bouyarmane, J.~Vaillant, K.~Fran\c{c}ois, et~al.
 \newblock Exploring humanoid robots locomotion capabilities in virtual disaster
   response scenarios.
 \newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2012.
 
 \bibitem{Kohlbrecher}
-Stefan Kohlbrecher, Alberto Romay, Alexander Stumpf, Anant Gupta, and Oskar~von
-  Stryk.
+Stefan Kohlbrecher, Alberto Romay, Alexander Stumpf, et~al.
 \newblock Human-robot teaming for rescue missions: Team vigir's approach to the
   2013 darpa robotics challenge trials.
 \newblock {\em Journal of Field Robotics}, 32(3), 2014.
 
 \bibitem{Romay}
-Alberto Romay, Stefan Kohlbrecher, David~C. Conner, Alexander Stumpf, and
-  Oskar~von Stryk.
+Alberto Romay, Stefan Kohlbrecher, David~C. Conner, et~al.
 \newblock Template-based manipulation in unstructured environments for
   supervised semi-autonomous humanoid robots.
 \newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2014.
@@ -26,17 +24,14 @@ Daniel~P. Stormont and Vicki~H. Allan.
 \newblock {\em Systemics, Cybernetics and Informatics}, 7(4), 2009.
 
 \bibitem{Katyal}
-Kapil~D. Katyal, Christopher~Y. Brown, Steven~A. Hechtman, Matthew~P. Para,
-  Timotthy~G. McGee, Kevin~C. Wolfe, Ryan~J. Murphy, Michael~D.M. Kutzer,
-  Edward~W. Tunstel, Michael~P. McLoughlin, and Matthew~S. Johannes.
+Kapil~D. Katyal, Christopher~Y. Brown, Steven~A. Hechtman, et~al.
 \newblock Approaches to robotic teleoperation in a disaster scenario: From
   supervised autonomy to direct control.
 \newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
   (IROS)}, 2014.
 
 \bibitem{Blodow}
-Nico Blodow, Lucian Cosmin~Goron, Zoltan-Csaba Marton, Dejan Pangercic, Thomas
-  R\"uhr, Moritz Tenorth, and Michael Beetz.
+Nico Blodow, Lucian Cosmin~Goron, Zoltan-Csaba Marton, et~al.
 \newblock Autonomous semantic mapping for robots performing everyday
   manipulation tasks in kitchen environments.
 \newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
@@ -61,28 +56,24 @@ Gordon Cheng and Alexander Zelinsky.
   (IROS)}, 1997.
 
 \bibitem{Dellin}
-Christopher Dellin, Kyle Strabala, Galen~Clark Haynes, David Stager, and
-  Siddhartha Srinivasa.
+Christopher Dellin, Kyle Strabala, Galen~Clark Haynes, et~al.
 \newblock Guided manipulation planning at the darpa robotics challenge trials.
 \newblock In {\em Int. Symposium on Experimental Robotics (ISER)}, 2014.
 
 \bibitem{Fallon}
-Maurice Fallon, Scott Kuindersma, Sisir Karumanchi, Matthew Antone, et~al.
+Maurice Fallon, Scott Kuindersma, Sisir Karumanchi, et~al.
 \newblock An architecture for online affordance-based perception and whole-body
   planning.
 \newblock Technical report, Massachusetts Institute of Technology, 2014.
 
 \bibitem{Hebert}
-Paul Hebert, Jeremy Ma, James Borders, Alper Aydemir, Max Bajracharya, Nicolas
-  Hudson, Krishna Shankar, Sisir Karumanchi, Bertrand Douillard, and Joel
-  Burdick.
+Paul Hebert, Jeremy Ma, James Borders, et~al.
 \newblock Supervised remote robot with guided autonomy and teleoperation
   (surrogate): A framework for whole-body mobile manipulation.
 \newblock In {\em IEEE Int. Conf. on Robotics and Automation (ICRA)}, 2015.
 
 \bibitem{Kaneko}
-Kenji Kaneko, Mitsuharu Morisawa, Shuuji Kajita, Shin'ichiro Nakaoka, Takeshi
-  Sakaguchi, Rafael Cisneros, and Fumio Kanehiro.
+Kenji Kaneko, Mitsuharu Morisawa, Shuuji Kajita, et~al.
 \newblock Humanoid robot hrp-2kai - improvement of hrp-2 towards disaster
   response tasks.
 \newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots (submitted)}, 2015.
@@ -100,15 +91,13 @@ Shin'ichiro Nakaoka.
   2012.
 
 \bibitem{Nakaoka_Humanoids}
-Shin'ichiro Nakaoka, Mitsuharu Morisawa, Rafael Cisneros, Takeshi Sakaguchi,
-  Shuuji Kajita, Kenji Kaneko, and Fumio Kanehiro.
+Shin'ichiro Nakaoka, Mitsuharu Morisawa, Rafael Cisneros, et~al.
 \newblock Task sequencer integrated into a teleoperation interface for biped
   humanoid robots.
 \newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots (submitted)}, 2015.
 
 \bibitem{Morisawa}
-Mitsuharu Morisawa, Shuuji Kajita, Fumio Kanehiro, Kenji Kaneko, Kanako Miura,
-  and Kazuhiro Yokoi.
+Mitsuharu Morisawa, Shuuji Kajita, Fumio Kanehiro, et~al.
 \newblock Balance control based on capture point error compensation for biped
   walking on uneven terrain.
 \newblock In {\em IEEE-RAS Int. Conf. on Humanoid Robots}, 2012.
