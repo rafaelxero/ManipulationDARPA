@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=BibTeXView
 Document=ManipulationDARPA.bib
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=1474
+TopLine=114
+Cursor=5174
 
 [Frame1]
 Flags=0
@@ -30,12 +30,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
 Document=sec_teleoperation_gui.tex
 
 [Frame1_View0,0]
-TopLine=55
+TopLine=41
 Cursor=4076
 
 [Frame2]
@@ -48,12 +48,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
 Document=sec_hrp2kai.tex
 
 [Frame2_View0,0]
-TopLine=24
+TopLine=10
 Cursor=989
 
 [Frame3]
@@ -66,13 +66,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
 Document=sec_plug.tex
 
 [Frame3_View0,0]
-TopLine=26
-Cursor=1747
+TopLine=125
+Cursor=6825
 
 [Frame4]
 Flags=0
@@ -84,13 +84,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
 Document=ManipulationDARPA.tex
 
 [Frame4_View0,0]
-TopLine=13
-Cursor=858
+TopLine=15
+Cursor=1898
 
 [Frame5]
 Flags=0
@@ -102,13 +102,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
-Document=sec_button.tex
+Document=sec_introduction.tex
 
 [Frame5_View0,0]
-TopLine=0
-Cursor=283
+TopLine=5
+Cursor=2254
 
 [Frame6]
 Flags=0
@@ -120,13 +120,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
-Document=sec_introduction.tex
+Document=sec_related_work.tex
 
 [Frame6_View0,0]
-TopLine=10
-Cursor=2254
+TopLine=0
+Cursor=668
 
 [Frame7]
 Flags=0
@@ -138,51 +138,15 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1623
-NormalPos.bottom=522
-Class=LaTeXView
-Document=ieeeconf.cls
-
-[Frame7_View0,0]
-TopLine=0
-Cursor=46
-
-[Frame8]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=32
-NormalPos.right=1623
-NormalPos.bottom=522
+NormalPos.bottom=855
 Class=LaTeXView
 Document=sec_door.tex
 
-[Frame8_View0,0]
-TopLine=112
-Cursor=6568
-
-[Frame9]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=32
-NormalPos.right=1623
-NormalPos.bottom=522
-Class=LaTeXView
-Document=sec_related_work.tex
-
-[Frame9_View0,0]
-TopLine=0
-Cursor=668
+[Frame7_View0,0]
+TopLine=155
+Cursor=6970
 
 [SessionInfo]
-FrameCount=10
-ActiveFrame=8
+FrameCount=8
+ActiveFrame=3
 

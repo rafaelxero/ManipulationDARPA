@@ -93,11 +93,11 @@ Shin'ichiro Nakaoka.
 \newblock \small \url{http://www.choreonoid.org/en/}, 2015.
 
 \bibitem{Nakaoka_Choreonoid}
-Shin'ichiro Nakaoka, Shuuji Kajita, and Kazuhito Yokoi.
-\newblock Intuitive and flexible user interface for creating whole body motions
-  of biped humanoid robots.
-\newblock In {\em IEEE/RSJ Int. Conf. on Intelligent Robots and Systems
-  (IROS)}, pages 1675--1681, Taipei, Taiwan, October 2010.
+Shin'ichiro Nakaoka.
+\newblock Choreonoid: Extensible virtual robot environment built on an
+  integrated gui framework.
+\newblock In {\em IEEE/SICE International Symposium on System Integration},
+  2012.
 
 \bibitem{Nakaoka_Humanoids}
 Shin'ichiro Nakaoka, Mitsuharu Morisawa, Rafael Cisneros, Takeshi Sakaguchi,

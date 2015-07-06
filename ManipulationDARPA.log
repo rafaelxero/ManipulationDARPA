@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.29)  6 JUL 2015 10:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.29)  6 JUL 2015 14:12
 entering extended mode
 **ManipulationDARPA.tex
 ("C:\Users\Rafael Cisneros\Documents\Documents\ManipulationDARPA\ManipulationDARPA.tex"
@@ -403,99 +403,95 @@ Package pdftex.def Info: img/drc_door_aist_day1.pdf used on input line 165.
 <img/Sockets-Plug.png, id=63, 520.19344pt x 526.96875pt>
 File: img/Sockets-Plug.png Graphic file (type png)
  <use img/Sockets-Plug.png>
-Package pdftex.def Info: img/Sockets-Plug.png used on input line 10.
-(pdftex.def)             Requested size: 112.3474pt x 113.81102pt.
-
-
-LaTeX Warning: Reference `sub:uncertainties' on page 4 undefined on input line 32.
-
-[4 <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/approach_door_lever.pdf>]
+Package pdftex.def Info: img/Sockets-Plug.png used on input line 15.
+(pdftex.def)             Requested size: 98.29802pt x 99.58464pt.
+ [4 <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/approach_door_lever.pdf>]
 <img/SocketPlugMarker.png, id=78, 549.55313pt x 526.21594pt>
 File: img/SocketPlugMarker.png Graphic file (type png)
  <use img/SocketPlugMarker.png>
-Package pdftex.def Info: img/SocketPlugMarker.png used on input line 36.
-(pdftex.def)             Requested size: 148.57419pt x 142.26378pt.
+Package pdftex.def Info: img/SocketPlugMarker.png used on input line 54.
+(pdftex.def)             Requested size: 133.71509pt x 128.0374pt.
 
 <img/PreCloseHand.png, id=79, 574.39594pt x 526.21594pt>
 File: img/PreCloseHand.png Graphic file (type png)
  <use img/PreCloseHand.png>
-Package pdftex.def Info: img/PreCloseHand.png used on input line 58.
-(pdftex.def)             Requested size: 155.29056pt x 142.26378pt.
+Package pdftex.def Info: img/PreCloseHand.png used on input line 73.
+(pdftex.def)             Requested size: 139.75974pt x 128.0374pt.
 
 <img/GraspPlug.png, id=80, 599.99156pt x 526.21594pt>
 File: img/GraspPlug.png Graphic file (type png)
  <use img/GraspPlug.png>
-Package pdftex.def Info: img/GraspPlug.png used on input line 69.
-(pdftex.def)             Requested size: 162.21045pt x 142.26378pt.
-
-<img/WatchPlug.png, id=81, 694.84593pt x 526.96875pt>
-File: img/WatchPlug.png Graphic file (type png)
- <use img/WatchPlug.png>
-Package pdftex.def Info: img/WatchPlug.png used on input line 90.
-(pdftex.def)             Requested size: 187.58969pt x 142.26378pt.
-
-<img/InsertPlug.png, id=82, 572.89032pt x 526.21594pt>
-File: img/InsertPlug.png Graphic file (type png)
- <use img/InsertPlug.png>
-Package pdftex.def Info: img/InsertPlug.png used on input line 108.
-(pdftex.def)             Requested size: 154.8835pt x 142.26378pt.
+Package pdftex.def Info: img/GraspPlug.png used on input line 89.
+(pdftex.def)             Requested size: 145.98758pt x 128.0374pt.
  [5 <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/drc_door_aist_day2.pdf> <C:/Users/Rafael Cisnero
 s/Documents/Documents/ManipulationDARPA/img/drc_door_aist_day1.pdf> <C:/Users/Rafael Cisneros/Documents/Documents/Manipu
-lationDARPA/img/Sockets-Plug.png>]
-<img/Plug_30_24_60.png, id=100, 1173.38374pt x 660.4675pt>
+lationDARPA/img/Sockets-Plug.png> <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/SocketPlugMarker.p
+ng>]
+<img/WatchPlug.png, id=99, 694.84593pt x 526.96875pt>
+File: img/WatchPlug.png Graphic file (type png)
+ <use img/WatchPlug.png>
+Package pdftex.def Info: img/WatchPlug.png used on input line 111.
+(pdftex.def)             Requested size: 168.8233pt x 128.0374pt.
+
+<img/InsertPlug.png, id=100, 572.89032pt x 526.21594pt>
+File: img/InsertPlug.png Graphic file (type png)
+ <use img/InsertPlug.png>
+Package pdftex.def Info: img/InsertPlug.png used on input line 129.
+(pdftex.def)             Requested size: 139.3934pt x 128.0374pt.
+
+<img/Plug_30_24_60.png, id=101, 1173.38374pt x 660.4675pt>
 File: img/Plug_30_24_60.png Graphic file (type png)
  <use img/Plug_30_24_60.png>
-Package pdftex.def Info: img/Plug_30_24_60.png used on input line 129.
+Package pdftex.def Info: img/Plug_30_24_60.png used on input line 154.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_32_24_23.png, id=101, 1173.38374pt x 660.4675pt>
+<img/Plug_32_24_23.png, id=102, 1173.38374pt x 660.4675pt>
 File: img/Plug_32_24_23.png Graphic file (type png)
  <use img/Plug_32_24_23.png>
-Package pdftex.def Info: img/Plug_32_24_23.png used on input line 131.
+Package pdftex.def Info: img/Plug_32_24_23.png used on input line 156.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_34_33_87.png, id=102, 1173.38374pt x 660.4675pt>
+<img/Plug_34_33_87.png, id=103, 1173.38374pt x 660.4675pt>
 File: img/Plug_34_33_87.png Graphic file (type png)
  <use img/Plug_34_33_87.png>
-Package pdftex.def Info: img/Plug_34_33_87.png used on input line 135.
+Package pdftex.def Info: img/Plug_34_33_87.png used on input line 160.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_37_23_37.png, id=103, 1173.38374pt x 660.4675pt>
+<img/Plug_37_23_37.png, id=104, 1173.38374pt x 660.4675pt>
 File: img/Plug_37_23_37.png Graphic file (type png)
  <use img/Plug_37_23_37.png>
-Package pdftex.def Info: img/Plug_37_23_37.png used on input line 137.
+Package pdftex.def Info: img/Plug_37_23_37.png used on input line 162.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_38_13_00.png, id=104, 1173.38374pt x 660.4675pt>
+<img/Plug_38_13_00.png, id=105, 1173.38374pt x 660.4675pt>
 File: img/Plug_38_13_00.png Graphic file (type png)
  <use img/Plug_38_13_00.png>
-Package pdftex.def Info: img/Plug_38_13_00.png used on input line 141.
+Package pdftex.def Info: img/Plug_38_13_00.png used on input line 166.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_39_03_07.png, id=105, 1173.38374pt x 660.4675pt>
+<img/Plug_39_03_07.png, id=106, 1173.38374pt x 660.4675pt>
 File: img/Plug_39_03_07.png Graphic file (type png)
  <use img/Plug_39_03_07.png>
-Package pdftex.def Info: img/Plug_39_03_07.png used on input line 143.
+Package pdftex.def Info: img/Plug_39_03_07.png used on input line 168.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_43_42_13.png, id=106, 1173.38374pt x 660.4675pt>
+<img/Plug_43_42_13.png, id=107, 1173.38374pt x 660.4675pt>
 File: img/Plug_43_42_13.png Graphic file (type png)
  <use img/Plug_43_42_13.png>
-Package pdftex.def Info: img/Plug_43_42_13.png used on input line 147.
+Package pdftex.def Info: img/Plug_43_42_13.png used on input line 172.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 
-<img/Plug_44_51_93.png, id=107, 1173.38374pt x 660.4675pt>
+<img/Plug_44_51_93.png, id=108, 1173.38374pt x 660.4675pt>
 File: img/Plug_44_51_93.png Graphic file (type png)
  <use img/Plug_44_51_93.png>
-Package pdftex.def Info: img/Plug_44_51_93.png used on input line 149.
+Package pdftex.def Info: img/Plug_44_51_93.png used on input line 174.
 (pdftex.def)             Requested size: 101.08807pt x 56.9055pt.
 )
-("C:\Users\Rafael Cisneros\Documents\Documents\ManipulationDARPA\sec_conclusions.tex")
-("C:\Users\Rafael Cisneros\Documents\Documents\ManipulationDARPA\ManipulationDARPA.bbl" [6 <C:/Users/Rafael Cisneros/Doc
-uments/Documents/ManipulationDARPA/img/SocketPlugMarker.png> <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationD
-ARPA/img/PreCloseHand.png> <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/GraspPlug.png> <C:/Users/
-Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/WatchPlug.png> <C:/Users/Rafael Cisneros/Documents/Documents/M
-anipulationDARPA/img/InsertPlug.png>]
+("C:\Users\Rafael Cisneros\Documents\Documents\ManipulationDARPA\sec_conclusions.tex") [6 <C:/Users/Rafael Cisneros/Docu
+ments/Documents/ManipulationDARPA/img/PreCloseHand.png> <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/
+img/GraspPlug.png> <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/WatchPlug.png> <C:/Users/Rafael C
+isneros/Documents/Documents/ManipulationDARPA/img/InsertPlug.png>]
+("C:\Users\Rafael Cisneros\Documents\Documents\ManipulationDARPA\ManipulationDARPA.bbl"
 Underfull \hbox (badness 1540) in paragraph at lines 29--36
 []\OT1/ptm/m/n/8 Kapil D. Katyal, Christo-pher Y. Brown, Steven A. Hecht-man,
  []
@@ -530,25 +526,22 @@ nts/ManipulationDARPA/img/Plug_39_03_07.png> <C:/Users/Rafael Cisneros/Documents
 _42_13.png> <C:/Users/Rafael Cisneros/Documents/Documents/ManipulationDARPA/img/Plug_44_51_93.png>]
 ("C:\Users\Rafael Cisneros\Documents\Documents\ManipulationDARPA\ManipulationDARPA.aux")
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4057 strings out of 493921
- 64466 string characters out of 3149658
- 122539 words of memory out of 3000000
+ 4056 strings out of 493921
+ 64452 string characters out of 3149658
+ 126548 words of memory out of 3000000
  7268 multiletter control sequences out of 15000+200000
- 44021 words of font info for 91 fonts, out of 3000000 for 9000
+ 42914 words of font info for 90 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,9n,47p,318b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Winapps/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Winapps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 ><C:/Winapps/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Winapps/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/W
 inapps/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Winapps/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Winapps/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ManipulationDARPA.pdf (7 pages, 24734226 bytes).
+Output written on ManipulationDARPA.pdf (7 pages, 24735068 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

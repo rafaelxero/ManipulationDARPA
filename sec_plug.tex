@@ -1,39 +1,57 @@
 \section{Pulling and inserting a plug}
 	\label{sec:plug}
 	
-	One of the surprise tasks at the DARPA Robotics Challenge consisted of pulling out a plug
-	from one socket and putting it back into another socket, in a set-up like the one shown in
-	\figurename~\ref{fig:Sockets-Plug}.
+	\subsection{Outline of the plug task}
 	
-	\begin{figure}[b]
-		\centering
-		\includegraphics[height = 4cm]{img/Sockets-Plug}
-		\caption{Plug Task.}
-		\label{fig:Sockets-Plug}
-	\end{figure}
+		One of the surprise tasks at the DRC consisted of pulling out a plug
+		from one socket and putting it back into another socket, in a set-up like the one shown in
+		\figurename~\ref{fig:Sockets-Plug}.
+		The separation between both sockets was not known in advance, neither the height at which
+		they were placed.
+		Only the shape of the plug was known in advance.
+		
+		\begin{figure}[t]
+			\centering
+			\includegraphics[height = 3.5cm]{img/Sockets-Plug}
+			\caption{Plug Task.}
+			\label{fig:Sockets-Plug}
+		\end{figure}
+		
+		To carry out this task, we can consider its execution as divided into the following phases:
+		%
+		\begin{enumerate}
+			\item Detection the socket and plug.
+			\item Grasping the plug.
+			\item Pulling and adjusting the plug.
+			\item Inserting the plug.
+		\end{enumerate}
 	
 	\subsection{Detection of the socket and plug}
 		
 		In order to perform this task it is first necessary to identify the plug and the socket where
-		it is originally inserted, by placing the corresponding Manipulation Marker within the poing cloud.
+		it is originally inserted, by placing the corresponding Manipulation Marker within the point cloud.
 		The reason to identify both objects instead of just the plug is because almost half of it
-		is not visible as it is inside of the socket, making it too difficult just to match the plug,
-		given the low density of points belonging to it due to its small size.
+		is not visible, as it is inside of the socket.
+		As a consequence, the matching precision attained by aligning just the plug is lower than the one
+		attained by aligning both objects.
 		
-		By using a PCL's built in function it is possible to detect all the planes in the scene,
-		one of them being the wall where the sockets are installed.
+		To do that we first detect all the planes in the scene, assuming that one of them will correspond
+		to the wall where the sockets are installed.
 		Then, given that the front face of the sockets is parallel to this wall, it is possible
-		to use the corresponding plane equation to calculate the socket's orientation with respect to
-		the robot, in such a way that the plug is directed towards it.
+		to calculate their orientation with respect to the robot.
 		Having done this, one point belonging to the plug can be manually selected in order to compute
 		an approximate initial position for the Manipulation Marker representing the socket and the plug.
-		This one is later refined, after the robot has arrived to the desired stance and the point cloud
-		has been adjusted by using the robot's hands as a reference, as seen in
-		\figurename~\ref{fig:SocketPlugMarker} (and explained in Subsection~\ref{sub:uncertainties}).
 		
-		\begin{figure}[t]
+		This initial position can be later refined, after the robot has arrived to the desired stance and
+		after the point cloud has been adjusted by using one hand of the robot as a reference
+		(given that its attitude can be calculated from the internal sensors), as shown in
+		\figurename~\ref{fig:SocketPlugMarker}.
+		This is because the measured point cloud has some intrinsic noise, mainly caused as a result of
+		the sunlight.
+		
+		\begin{figure}[b]
 			\centering
-			\includegraphics[height = 5cm]{img/SocketPlugMarker}
+			\includegraphics[height = 4.5cm]{img/SocketPlugMarker}
 			\caption{Detection of the socket and the plug.}
 			\label{fig:SocketPlugMarker}
 		\end{figure}
@@ -42,78 +60,85 @@
 		
 		Having detected an approximate attitude for the socket, the robot first approaches the plug
 		with one hand while aligning the camera installed at the other hand with the axis of the plug.
-		This is to be able to make slight adjustments of the grasping hand by using visual feedback.
-		
-		The size of the visible part of the plug is not that big compared to the hand of the robot,
-		and because of that the tolerance for	grasping the plug is minimum.
-		Then, it is required to grasp the plug at the point in which the medial side of the hand
-		touches the cylindrical shaped part of the socket.
-		This can be done by reducing the angle of the gripper and then, by moving the hand along the
-		axis of the plug until sensing 30 N of force (enough for considering that it arrived to the socket).
-		This configuration of the robot just before moving the hand towards to the socket is depicted in
-		\figurename~\ref{fig:PreCloseHand}.
+		By doing this it is possible for the operator to make slight adjustments of the grasping hand
+		by using the visual information provided by the hand camera.
+		\figurename~\ref{fig:PreCloseHand} shows this configuration for the situation in which the plug
+		is initially inserted into the left socket.
+		Then, the robot uses its right hand to grasp the plug and the left hand for the camera.
+		Were the plug initially inserted into the other socket, then the role for both hands would be
+		reversed.
 		
 		\begin{figure}[t]
 			\centering
-			\includegraphics[height = 5cm]{img/PreCloseHand}
+			\includegraphics[height = 4.5cm]{img/PreCloseHand}
 			\caption{Configuration of the robot before grasping the plug.}
 			\label{fig:PreCloseHand}
 		\end{figure}
 		
-		This strategy is very effective (when adjusted properly) as the grasp can be done every time at the
-		desired point even in the presence of uncertainties, as shown in the dynamical simulation depicted
-		in \figurename~\ref{fig:GraspPlug}.
+		The size of the visible part of the plug is not that big compared to the hand of the robot,
+		and because of that the allowable tolerance for grasping the plug is small.
+		Then, it is required to grasp it at the point in which the hand also touches the socket.
+		This can be done by translating the hand along the axis of the plug until sensing 30 N of force
+		(enough for considering that it hits to the socket).
+		This strategy is effective (when adjusted properly) as the grasp can be done every time at the
+		desired point with enough precision even in the presence of uncertainties, as shown in the dynamical
+		simulation depicted	in \figurename~\ref{fig:GraspPlug}.
 		
 		\begin{figure}[b]
 			\centering
-			\includegraphics[height = 5cm]{img/GraspPlug}
-			\caption{The plug being effectively grasped at the desired point.}
+			\includegraphics[height = 4.5cm]{img/GraspPlug}
+			\caption{The plug being effectively grasped.}
 			\label{fig:GraspPlug}
 		\end{figure}
 		
 	\subsection{Pulling and adjusting the plug}
 		
-		After grasping the plug, the robot pulls the plug.
-		Due to the balancing process this motion may not be performed exactly along the axis of the plug,
-		and it may hit the inner walls of the socket, modifying the planned relative attitude between the
-		plug and the hand.
+		After grasping the plug, the robot has to pull it.
+		Due to the waist motion occurring during the stabilization of the robot, the pulling motion may not
+		be performed exactly along the axis of the plug, and this one may hit the inner walls of the socket
+		while being pulled, modifying the planned relative attitude between the plug and the grasping hand.
 		
 		For this reason, before inserting the plug into the other socket, the robot first brings the plug
 		in front of its chest, takes an updated point cloud, and uses the camera placed at the head and
 		at the other hand to look at the plug from two perpendicular directions, as seen in
 		\figurename~\ref{fig:WatchPlug}.
-		By using this information it is possible to fix the actual attitude of the plug with respect to
-		the hand.
+		By using the point cloud, together with the visual information of both cameras, it is possible to
+		fix the actual attitude of the Manipulation Marker representing the plug to match the attitude of
+		the real one with respect to the hand.
 		
 		\begin{figure}[t]
 			\centering
-			\includegraphics[height = 5cm]{img/WatchPlug}
+			\includegraphics[height = 4.5cm]{img/WatchPlug}
 			\caption{After pulling the plug its attitude is adjusted.}
 			\label{fig:WatchPlug}
 		\end{figure}
 		
 	\subsection{Inserting the plug}
 		
-		Once the Manipulation Marker representing the plug is fixed at the hand, it can further be properly
-		aligned with the destination socket.
-		This one can be represented with another marker (Object Marker), which can be adjusted within the
-		point cloud before taking the plug to the pre-insertion position.
-		However, because of inaccuracies of the point cloud, the camera at the other hand is used once again
-		together with the camera at the head to look at the plug, and use this visual feedback to adjust its
-		position to properly insert the plug within few movements.
-		This is represented in \figurename~\ref{fig:InsertPlug}.
+		Once this relative attitude is known it is possible to align the plug with the destination socket,
+		whose position can also be approximated by adjusting the corresponding marker within the point cloud.
+		However, it is still worth to consider that this position may not be accurate enough,
+		making it unfeasible to attempt an immediate insertion.
+		Instead, the camera at the other hand can be used once again together with the camera at the head to
+		look at the plug from two different points of view (as seen in \figurename~\ref{fig:InsertPlug}),
+		in such a way that the operator can use this visual	information to slightly adjust the position of the
+		plug before inserting it.
 		
 		\begin{figure}[b]
 			\centering
-			\includegraphics[height = 5cm]{img/InsertPlug}
+			\includegraphics[height = 4.5cm]{img/InsertPlug}
 			\caption{The plug is inserted by using visual feedback.}
 			\label{fig:InsertPlug}
 		\end{figure}
 		
-		Then, once the task is completed, the hand opens and an updated point cloud is taken, in order to
-		correctly plan the returning motion without hitting the cable of the plug.
+		Then, once the task is completed, the grasping hand opens and an updated point cloud is taken once again,
+		in order to correctly plan the returning motion without hitting the cable of the plug.
 		
-	\subsection{Results}
+	\subsection{Result at the DRC Finals}
+		
+		%The plug task was
+		
+		%At the DRC Finals 2015, HRP-2Kai was 
 		
 		With respect to the plug task, during the DRC Finals we were able to complete the task
 		and get the point	within 16 minutes and 34 seconds, mainly because we were supervising
@@ -125,13 +150,13 @@
 		
 		\begin{figure}[t]
 			\centering
-			\subfloat[Adjust manipulation marker]
+			\subfloat[Identify plug in socket]
 				{\label{fig:Plug_30_24_60} \includegraphics[height = 2cm]{img/Plug_30_24_60}}
 			\subfloat[Adjust point cloud offset]
 				{\label{fig:Plug_32_24_23} \includegraphics[height = 2cm]{img/Plug_32_24_23}}
 			\\
 			%
-			\subfloat[Adjust hand for pre-grasping]
+			\subfloat[Prepare for pre-grasping]
 				{\label{fig:Plug_34_33_87} \includegraphics[height = 2cm]{img/Plug_34_33_87}}
 			\subfloat[Align hand to grasp]
 				{\label{fig:Plug_37_23_37} \includegraphics[height = 2cm]{img/Plug_37_23_37}}
@@ -139,11 +164,11 @@
 			%
 			\subfloat[Pull out the plug]
 				{\label{fig:Plug_38_13_00} \includegraphics[height = 2cm]{img/Plug_38_13_00}}
-			\subfloat[Adjust manipulation marker]
+			\subfloat[Identify plug in hand]
 				{\label{fig:Plug_39_03_07} \includegraphics[height = 2cm]{img/Plug_39_03_07}}
 			\\
 			%
-			\subfloat[Adjust hand for pre-insertion]
+			\subfloat[Prepare for pre-insertion]
 				{\label{fig:Plug_43_42_13} \includegraphics[height = 2cm]{img/Plug_43_42_13}}
 			\subfloat[Plug is inserted]
 				{\label{fig:Plug_44_51_93} \includegraphics[height = 2cm]{img/Plug_44_51_93}}
@@ -151,3 +176,33 @@
 			\caption{Plug Task at the second day of the DARPA Robotics Challenge~\cite{DARPA}}
 			\label{fig:plug-drc}
 		\end{figure}
+		
+		Table~\ref{tab:teams} summarizes the performance obtained by the teams that were able to
+		accomplish the Plug Task.
+		For comparison effects, the following information is presented:
+		the place obtained during the competition, the time spent during the execution of the Plug Task,
+		the effective time of the task (by counting only the time in which the robot is moving),
+		the number of adjustments (small motions) performed by each robot during the insertion of the plug
+		and the grasping strategy; that is, if the robot grasped the plug or the cable.
+		
+		\begin{table}[t]
+			%
+			\caption{Teams that completed the plug task.}
+			\label{tab:teams}
+			\centering
+			%
+			\begin{tabular}{cccccc}
+				\hline
+				Team 					& Place	& Task	& Effective & Insertion	& Grasp	\\
+											& 			& time	& time			& adjust.		& 			\\
+				\hline
+				KAIST					& 1			& 11:01	& 2:18			& 14				& Cable	\\
+				IHMC Robotics	& 2			& 6:31	& 2:32			& 8					& Cable	\\
+				Tartan Rescue	& 3			& 18:33	& 3:21			& 17				& Plug	\\
+				NIMBRO Rescue	& 4			& 8:16	& 2:29			& 16				& Plug	\\
+				WPI-CMU				& 7			& 5:07	& 1:42			& 7					& Plug	\\
+				AIST-NEDO			& 10		& 16:34	& 1:34			& 3					& Plug	\\
+				\hline
+			\end{tabular}
+			%
+		\end{table}
