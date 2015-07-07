@@ -81,7 +81,7 @@ Kenji Kaneko, Mitsuharu Morisawa, et~al.
 \bibitem{Choreonoid}
 Shin'ichiro Nakaoka.
 \newblock Choreonoid.
-\newblock \small \url{http://www.choreonoid.org/en/}, 2015.
+\newblock \small \url{www.choreonoid.org}, 2015.
 
 \bibitem{Nakaoka_Choreonoid}
 Shin'ichiro Nakaoka.
@@ -111,6 +111,6 @@ Oussama Kanoun, Florent Lamiraux, et~al.
 \bibitem{DARPA}
 DARPA.
 \newblock Darpa robotics challenge finals 2015.
-\newblock \small \url{http://www.theroboticschallenge.org/}, 2015.
+\newblock \small \url{www.theroboticschallenge.org}, 2015.
 
 \end{thebibliography}
