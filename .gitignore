@@ -46,12 +46,11 @@ Temporary Items
 # Latex Generated Files
 # =========================
 
-.aux
-.bbl
-.blg
-.dvi
-.log
-.ps
-.tps
-
 ManipulationDARPA.pdf
+ManipulationDARPA.aux
+ManipulationDARPA.log
+ManipulationDARPA.bbl
+ManipulationDARPA.blg
+ManipulationDARPA.dvi
+ManipulationDARPA.ps
+ManipulationDARPA.tps
