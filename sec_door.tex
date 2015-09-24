@@ -89,10 +89,21 @@ Its position and orientation are used to navigate the robot to the desired pose 
 the door.
 
 \begin{figure}[t]
-  \centering
-  \includegraphics[width = 8cm]{img/door_manipulation_markers}
-  \caption{Detection of the door lever in the control window}
-  \label{fig:door_manip_markers}
+	\centering
+	\subfloat[Set an attention point on the point cloud]
+		{\label{fig:door_manipulation_markers_a} \includegraphics[width = 3.25cm]{img/door_manipulation_markers_a}}
+	\quad
+	\subfloat[Manipulation marker for the door panel]
+		{\label{fig:door_manipulation_markers_b} \includegraphics[width = 3.25cm]{img/door_manipulation_markers_b}}
+	\\
+	\subfloat[Set the second attention point on the lever axis]
+		{\label{fig:door_manipulation_markers_c} \includegraphics[width = 3.25cm]{img/door_manipulation_markers_c}}
+	\quad
+	\subfloat[Manipulation marker for the lever]
+		{\label{fig:door_manipulation_markers_d} \includegraphics[width = 3.25cm]{img/door_manipulation_markers_d}}
+	\\
+	\caption{Detection of the door lever in the control window}
+	\label{fig:door_manip_markers}
 \end{figure}
 
 \subsection{Grasping the door lever}
@@ -124,10 +135,18 @@ the internal sensors (joint encoders and posture sensors).
 %By hitting the button 'OK', the robot move the left hand forward until it contacts the door surface (we specified a sleshold of 5N to detect the contact).  The hand is in contact with appropriate position to grasp the door lever in \figurename~\ref{fig:door_lever_grasp}(c).
 %
 \begin{figure}[t]
-  \centering
-  \includegraphics[width = 7.5cm]{img/approach_door_lever}
-  \caption{Approach for grasping the door lever}
-  \label{fig:door_lever_grasp}
+	\centering
+	\subfloat[Initial state for door lever approaching]
+		{\label{fig:approach_door_lever_a} \includegraphics[height = 4.75cm]{img/approach_door_lever_a}}
+	\\
+	\subfloat[Hand position was adjusted]
+		{\label{fig:approach_door_lever_b} \includegraphics[height = 4.75cm]{img/approach_door_lever_b}}
+	\\
+	\subfloat[The door lever grasped]
+		{\label{fig:approach_door_lever_c} \includegraphics[height = 4.75cm]{img/approach_door_lever_c}}
+	\\
+	\caption{Approach for grasping the door lever}
+	\label{fig:door_lever_grasp}
 \end{figure}
 
 %\begin{figure}[t]
@@ -147,10 +166,21 @@ and (d) opening the door successfully.
 The robot spent 5 minutes and 21 seconds from the LRF scanning to fully pass the door.
 %
 \begin{figure}[t]
-  \centering
-  \includegraphics[width = 7.5cm]{img/drc_door_aist_day2}
-  \caption{Door task at DRC Finals on June 6~\cite{DARPA}}
-  \label{fig:drc_door_aist_day2}
+	\centering
+	\subfloat[LRF measurement 17:57:09 06/06/2015 UTC]
+		{\label{fig:drc_door_aist_day2_a} \includegraphics[height = 3.75cm]{img/drc_door_aist_day2_a}}
+	\quad
+	\subfloat[Walk to open-door point 17:57:50 06/06/2015 UTC]
+		{\label{fig:drc_door_aist_day2_b} \includegraphics[height = 3.75cm]{img/drc_door_aist_day2_b}}
+	\\
+	\subfloat[Robot at open-door pose 17:57:09 06/06/2015 UTC]
+		{\label{fig:drc_door_aist_day2_c} \includegraphics[height = 3.75cm]{img/drc_door_aist_day2_c}}
+	\quad
+	\subfloat[The door was opened 17:59:57 06/06/2015 UTC]
+		{\label{fig:drc_door_aist_day2_d} \includegraphics[height = 3.75cm]{img/drc_door_aist_day2_d}}
+	\\
+	\caption{Door task at DRC Finals on June 6~\cite{DARPA}}
+	\label{fig:drc_door_aist_day2}
 \end{figure}
 
 During the challenge on June 5, HRP-2Kai failed to operate the door lever at first,
