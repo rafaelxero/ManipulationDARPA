@@ -8,12 +8,13 @@
 		\figurename~\ref{fig:Sockets-Plug}.
 		The separation between both sockets was not known in advance, neither the height at which
 		they were placed.
-		Only the shape of the plug was known in advance.
+		Only the shape and size of the plug and the shape of the sockets (not their dimensions)
+		were known in advance.
 		
 		\begin{figure}[t]
 			\centering
-			\includegraphics[height = 3.5cm]{img/Sockets-Plug}
-			\caption{Plug Task.}
+			\includegraphics[height = 3.25cm]{img/Sockets-Plug}
+			\caption{Plug Task. The robot must pull out the plug from one socket and insert it into the other.}
 			\label{fig:Sockets-Plug}
 		\end{figure}
 		
@@ -42,9 +43,9 @@
 		Having done this, one point belonging to the plug can be manually selected in order to compute
 		an approximate initial position for the Manipulation Marker representing the socket and the plug.
 		
-		This initial position can be later refined, after the robot has arrived to the desired stance and
-		after the point cloud has been adjusted by using one hand of the robot as a reference
-		(given that its pose can be calculated from the internal sensors), as shown in
+		This initial position can be later refined, after the robot has arrived to a predetermined stance
+		relative to the plug and after the point cloud has been adjusted by using one hand of the robot as
+		a reference (given that its pose can be calculated from the internal sensors), as shown in
 		\figurename~\ref{fig:SocketPlugMarker}.
 		This is because the measured point cloud has some intrinsic noise, mainly caused as a result of
 		the sunlight.
@@ -144,7 +145,8 @@
 		a faster identification of the plug in the point cloud.
 		Even without knowing the disposition of the sockets within the field, HRP-2Kai was able to identify the
 		plug, approach to it, grasp it, pull it and insert it into the other socket.
-		Then, before returning to its home position, the hand of the robot grazed the plug and it fell down.
+		Then, before returning to its home position, the hand of the robot grazed a portion of the plug not
+		detected by the LRF and it fell down.
 		However, the point corresponding to the task was granted, as the plug was inserted into the socket
 		when the robot opened its hand.
 		Some snapshots taken during the task at the DRC Finals are shown in \figurename~\ref{fig:plug-drc},
@@ -184,7 +186,8 @@
 		For comparison effects, the following information is presented:
 		the place obtained by each team during the competition, the time spent during the execution
 		of the plug Task, the effective time of the task (by considering only the time in which the
-		robot is moving) and the number of adjustments performed during the insertion of the plug.
+		robot is moving) and the number of adjustments (intermittent correction motions) performed
+		during the insertion of the plug.
 		
 		\begin{table}[t]
 			%
