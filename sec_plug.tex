@@ -44,7 +44,7 @@
 		
 		This initial position can be later refined, after the robot has arrived to the desired stance and
 		after the point cloud has been adjusted by using one hand of the robot as a reference
-		(given that its attitude can be calculated from the internal sensors), as shown in
+		(given that its pose can be calculated from the internal sensors), as shown in
 		\figurename~\ref{fig:SocketPlugMarker}.
 		This is because the measured point cloud has some intrinsic noise, mainly caused as a result of
 		the sunlight.
@@ -58,8 +58,9 @@
 		
 	\subsection{Grasping the plug}
 		
-		Having detected an approximate attitude for the socket, the robot first approaches the plug
-		with one hand while aligning the camera installed at the other hand with the axis of the plug.
+		Having detected an approximate pose for the socket, the robot first approaches the plug
+		with one hand while aligning the camera installed at the other hand with the longitudinal axis
+		of the plug.
 		By doing this it is possible for the operator to make slight adjustments of the grasping hand
 		by using the visual information provided by the hand camera.
 		\figurename~\ref{fig:PreCloseHand} shows this configuration for the situation in which the plug
@@ -78,8 +79,8 @@
 		The size of the visible part of the plug is not that big compared to the hand of the robot,
 		and because of that the allowable tolerance for grasping the plug is small.
 		Then, it is required to grasp it at the point in which the hand also touches the socket.
-		This can be done by translating the hand along the axis of the plug until sensing 30 N of force
-		(enough for considering that it hits to the socket).
+		This can be done by translating the hand along the longitudinal axis of the plug until sensing
+		30 N of force (enough for considering that it hits to the socket).
 		This strategy is effective (when adjusted properly) as the grasp can be done every time at the
 		desired point with enough precision even in the presence of uncertainties, as shown in the dynamical
 		simulation depicted	in \figurename~\ref{fig:GraspPlug}.
@@ -95,27 +96,28 @@
 		
 		After grasping the plug, the robot has to pull it.
 		Due to the waist motion occurring during the stabilization of the robot, the pulling motion may not
-		be performed exactly along the axis of the plug, and this one may hit the inner walls of the socket
-		while being pulled, modifying the planned relative attitude between the plug and the grasping hand.
+		be performed exactly along the longitudinal axis of the plug, and this one may hit the inner walls
+		of the socket while being pulled, modifying the planned relative pose between the plug and the
+		grasping hand.
 		
 		For this reason, before inserting the plug into the other socket, the robot first brings the plug
 		in front of its chest, takes an updated point cloud, and uses the camera placed at the head and
 		at the other hand to look at the plug from two perpendicular directions, as seen in
 		\figurename~\ref{fig:WatchPlug}.
 		By using the point cloud, together with the visual information of both cameras, it is possible to
-		fix the actual attitude of the Manipulation Marker representing the plug to match the attitude of
+		fix the actual pose of the Manipulation Marker representing the plug to match the pose of
 		the real one with respect to the hand.
 		
 		\begin{figure}[t]
 			\centering
 			\includegraphics[height = 4.5cm]{img/WatchPlug}
-			\caption{After pulling the plug its attitude is adjusted.}
+			\caption{After pulling the plug its pose is adjusted.}
 			\label{fig:WatchPlug}
 		\end{figure}
 		
 	\subsection{Inserting the plug}
 		
-		Once this relative attitude is known it is possible to align the plug with the destination socket,
+		Once this relative pose is known it is possible to align the plug with the destination socket,
 		whose position can also be approximated by adjusting the corresponding marker within the point cloud.
 		However, it is still worth to consider that this position may not be accurate enough,
 		making it unfeasible to attempt an immediate insertion.

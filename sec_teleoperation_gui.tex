@@ -19,7 +19,7 @@
 		
 	\begin{figure}[t]
 		\centering
-		\includegraphics[height = 5.35cm]{img/Choreonoid3}
+		\includegraphics[height = 5cm]{img/Choreonoid3}
 		\caption{Teleoperation interface in Choreonoid~\cite{Nakaoka_Humanoids}.}
 		\label{fig:Choreonoid3}
 	\end{figure}
@@ -44,7 +44,7 @@
 	to translate and rotate the marker, or automatically with the aid of a built-in function included
 	in the Point Cloud Library (PCL), used by Choreonoid.
 	
-	The manipulation motion is specified by providing the attitude (position and orientation)
+	The manipulation motion is specified by providing the pose (position and orientation)
 	of the hands of the robot, and calculated by solving the whole-body inverse kinematics
 	problem~\cite{Kanoun}.
 	This motion can be either planned in advance or manually changed during the execution of the task
@@ -57,7 +57,7 @@
 	Then, the operator can also rely on the image captured by every camera,
 	and shown in the corresponding window.
 	Finally, the item window enlists the components required by Choreonoid to implement the teleoperation
-	interface, shown together with their properties.
+	interface, together with their configuration parameters: their properties.
 	
 	By using this interface we implemented all the manipulation tasks required during the
 	DARPA Robotics Challenge:
