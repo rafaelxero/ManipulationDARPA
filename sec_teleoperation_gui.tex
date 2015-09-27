@@ -19,7 +19,7 @@
 		
 	\begin{figure}[t]
 		\centering
-		\includegraphics[height = 5cm]{img/Choreonoid3}
+		\includegraphics[height = 5.5cm]{img/Choreonoid3}
 		\caption{Teleoperation interface in Choreonoid~\cite{Nakaoka_Humanoids}.}
 		\label{fig:Choreonoid3}
 	\end{figure}
@@ -50,13 +50,15 @@
 	This motion can be either planned in advance or manually changed during the execution of the task
 	by using \emph{Hand Markers} (3D models of the hands that can also be translated and rotated).
 	
-	The \emph{task sequencer} is provided by the interface to execute a previously planned manipulation
-	task step by step, such that the complex perception be entrusted to the operator, which	can also
-	supervise every step of the task.
-	For some tasks the point cloud does not provide enough information for them to be performed effectively.
-	Then, the operator can also rely on the image captured by every camera,
-	and shown in the corresponding window.
-	Finally, the item window enlists the components required by Choreonoid to implement the teleoperation
+	The \emph{task sequencer} is provided by the interface to execute a manipulation
+	task step by step, such that the complex perception and supervision be entrusted to the operator.
+	On every step, the robot is commanded to go to a predefined stance and/or to reach a predefined posture,
+	both of them relative to a previously identified target.
+	Then, the robot autonomously generates the required motion to accomplish the desired configuration,
+	avoiding obstacles represented by the point cloud and maintaining its dynamic stability.
+	
+	Finally, the interface also provides the image captured by every camera, as well as additional information.
+	For example, the item window enlists the components required by Choreonoid to implement the teleoperation
 	interface, together with their configuration parameters: their properties.
 	
 	By using this interface we implemented all the manipulation tasks required during the
