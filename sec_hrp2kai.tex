@@ -11,27 +11,24 @@
 	As seen in this diagram, the robot has 32 dof:
 	6 at each leg, 2 at the waist, two at the head, 7 at each arm and 1 at each hand.
 	This robot features a set of exteroceptive sensors that are actively used during the manipulation
-	tasks: force sensors on its wrists, a 3D scanner system built in its head and four cameras,
-	placed at the head, at the back and at each hand.
+	tasks: a 3D scanner system built in its head, four cameras placed at the head, at the back and at
+	each hand, and six-axis force sensors on its wrists and ankles.
 	The 3D scanner system was implemented with a Laser Range Finder (LRF) synchronized with the head
 	pitch joint, as shown in \figurename~\ref{fig:3DScanner}.
 	The hand camera is mounted in each hand as shown in \figurename~\ref{fig:Hand}, together with a
 	LED light and a laser.
 	It is worth to mention that this camera is not lined up with the longitudinal axis of the hand.
+	The wrist force sensors were used for task control, specifically to detect hand contact with the
+	environment, as expressed in Sections \ref{sub:GraspLever} and \ref{sub:GraspPlug}.
+	The ankle force sensors were used for biped walk stabilization.
 
-	% Have to check the following paragraph
-
-        HRP-2Kai is equipped with six-axis force sensors on its wrists and ankles. The wrist force sensors 
-        were used for task control, specifically to detect hand contact with the environment as expressed in 
-        Sections V.C and VI.C. The ankle force sensors were used for biped walk stabilization.
-	
 	\begin{figure}[t]
 		\begin{center}
 			\subfloat[Actual robot.]{\label{fig:HRP2Kai-robot}
-				\includegraphics[height = 4.3cm]{img/HRP2Kai-robot}}
+				\includegraphics[height = 4.65cm]{img/HRP2Kai-robot}}
 			\hspace{1cm}
 			\subfloat[Structure.]{\label{fig:HRP2Kai-structure}
-				\includegraphics[height = 4.3cm]{img/HRP2Kai-structure}}
+				\includegraphics[height = 4.65cm]{img/HRP2Kai-structure}}
 		\end{center}
 		\caption{HRP-2Kai humanoid robot.}
 		\label{fig:HRP2Kai}
